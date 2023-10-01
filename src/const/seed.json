@@ -1,0 +1,3432 @@
+[
+  {
+    "service_duration": [
+      {
+        "id": "e46254d5-b228-4c9f-950f-267f4c4b9417",
+        "created_at": "2023-10-01T02:52:05.620Z",
+        "updated_at": "2023-09-30T16:50:23.933Z"
+      },
+      {
+        "id": "60b200d3-b0d5-4582-a9f4-f89794abbcc4",
+        "created_at": "2023-09-30T18:05:09.884Z",
+        "updated_at": "2023-09-30T22:33:39.700Z"
+      },
+      {
+        "id": "5974d13b-7c4c-4e68-a104-f12516bde444",
+        "created_at": "2023-09-30T16:36:27.115Z",
+        "updated_at": "2023-10-01T01:17:16.581Z"
+      },
+      {
+        "id": "45c17dae-c34d-4e62-83e0-d211f7ff8ea2",
+        "created_at": "2023-09-30T22:51:46.709Z",
+        "updated_at": "2023-09-30T14:57:14.910Z"
+      },
+      {
+        "id": "a7146a62-b658-45a5-bcb0-2b53f3520b15",
+        "created_at": "2023-10-01T05:20:31.861Z",
+        "updated_at": "2023-09-30T18:23:41.260Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "69b839e7-b5b5-41fb-8bc4-8ea2a945d8d4",
+        "name": "Web Design",
+        "description": "Custom website design and development services",
+        "duration": 83522,
+        "price": 55644,
+        "created_at": "2023-10-01T09:42:52.572Z",
+        "updated_at": "2023-09-30T16:41:40.246Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f1577257-e5d4-4217-86bd-8f1aa0ade353",
+        "name": "Mobile App Development",
+        "description": "Creating innovative mobile applications for iOS and Android",
+        "duration": 32285,
+        "price": 36308,
+        "created_at": "2023-10-01T08:14:47.280Z",
+        "updated_at": "2023-10-01T05:41:14.597Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4693bb75-fc68-4695-9b13-4191100f797a",
+        "name": "Digital Marketing",
+        "description": "Promoting businesses through effective online marketing strategies",
+        "duration": 71121,
+        "price": 53940,
+        "created_at": "2023-10-01T11:34:31.882Z",
+        "updated_at": "2023-10-01T02:29:26.750Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "abf80c4f-51c9-4153-b7f7-4d19af26961b",
+        "name": "Cloud Computing",
+        "description": "Providing scalable and secure cloud solutions for businesses",
+        "duration": 47553,
+        "price": 31084,
+        "created_at": "2023-10-01T14:49:03.246Z",
+        "updated_at": "2023-09-30T23:32:04.432Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6076a2b3-2b7c-40d7-ab6b-1df3d2191cc8",
+        "name": "Data Analytics",
+        "description": "Analyzing data to uncover valuable insights and trends",
+        "duration": 50014,
+        "price": 42161,
+        "created_at": "2023-09-30T19:49:01.413Z",
+        "updated_at": "2023-09-30T22:57:55.073Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "00314c6b-db85-441c-90eb-88d066b5331a",
+        "name": "Central Park",
+        "address": "1 Central Park West",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10023",
+        "created_at": "2023-10-01T03:16:43.492Z",
+        "updated_at": "2023-10-01T11:15:50.052Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "967c8f3c-5242-4fc0-b2f5-f38916f4e75a",
+        "name": "Golden Gate Bridge",
+        "address": "Golden Gate Bridge Road",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94102",
+        "created_at": "2023-09-30T18:41:22.819Z",
+        "updated_at": "2023-10-01T07:54:42.730Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "974fd5a1-0290-40e8-b007-0dee7a9f6ba4",
+        "name": "Willis Tower",
+        "address": "233 S Wacker Dr",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60606",
+        "created_at": "2023-09-30T15:36:54.494Z",
+        "updated_at": "2023-10-01T13:13:36.588Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "718f1f51-b5c2-459e-ac1e-1f9aa20fba5c",
+        "name": "NASA Kennedy Space Center",
+        "address": "NASA Pkwy",
+        "city": "Orlando",
+        "state": "FL",
+        "zip_code": "32899",
+        "created_at": "2023-09-30T18:32:10.610Z",
+        "updated_at": "2023-09-30T18:52:10.012Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bbd0523c-b2af-4e12-9cc0-5e58b0276a29",
+        "name": "Statue of Liberty",
+        "address": "Liberty Island",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10004",
+        "created_at": "2023-09-30T19:18:14.839Z",
+        "updated_at": "2023-09-30T22:43:20.676Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "5acffd69-bc7e-4e0f-bd51-00920459fae0",
+        "created_at": "2023-09-30T21:03:16.359Z",
+        "updated_at": "2023-10-01T09:40:19.037Z"
+      },
+      {
+        "id": "92197af5-602d-4b14-a7da-1c5e7d544e97",
+        "created_at": "2023-10-01T08:52:47.116Z",
+        "updated_at": "2023-10-01T00:39:11.080Z"
+      },
+      {
+        "id": "69328a90-1714-427b-8c2b-55fec04030ae",
+        "created_at": "2023-09-30T20:38:07.869Z",
+        "updated_at": "2023-09-30T23:36:11.913Z"
+      },
+      {
+        "id": "690c73e1-ba35-4a8c-bf5e-f8116c4c4331",
+        "created_at": "2023-10-01T07:45:46.599Z",
+        "updated_at": "2023-10-01T08:31:24.395Z"
+      },
+      {
+        "id": "d636dfd3-d97e-44ae-aeee-87f77f50eb37",
+        "created_at": "2023-09-30T22:29:16.045Z",
+        "updated_at": "2023-09-30T22:55:59.248Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "1cc7c4c1-ca81-4e5c-9a1d-64d5439d3287",
+        "created_at": "2023-09-30T22:41:32.063Z",
+        "updated_at": "2023-09-30T15:51:44.332Z"
+      },
+      {
+        "id": "c2769ce1-41dd-4603-87a3-33cdf7b5ef6e",
+        "created_at": "2023-10-01T00:28:11.768Z",
+        "updated_at": "2023-10-01T09:51:53.022Z"
+      },
+      {
+        "id": "8cefe035-27cf-4fd7-8d59-ffac8f97ae08",
+        "created_at": "2023-10-01T14:39:42.796Z",
+        "updated_at": "2023-10-01T10:12:36.370Z"
+      },
+      {
+        "id": "f2dd1734-6599-4722-87a3-368c17526add",
+        "created_at": "2023-09-30T23:15:58.267Z",
+        "updated_at": "2023-09-30T15:18:17.432Z"
+      },
+      {
+        "id": "21bd627b-706b-4fbe-a8c9-433dedef2354",
+        "created_at": "2023-10-01T03:28:13.224Z",
+        "updated_at": "2023-10-01T13:45:55.751Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "ed98d77c-8080-4d6f-aa3c-62173e237a55",
+        "shift_start": "2023-09-30T16:51:18.443Z",
+        "shift_end": "2023-10-01T12:41:32.566Z",
+        "created_at": "2023-10-01T02:53:09.215Z",
+        "updated_at": "2023-09-30T15:47:44.379Z",
+        "location_id": "974fd5a1-0290-40e8-b007-0dee7a9f6ba4",
+        "service_id": "4693bb75-fc68-4695-9b13-4191100f797a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5339751a-2725-44af-b2e9-baccb22aaec7",
+        "shift_start": "2023-10-01T14:51:16.165Z",
+        "shift_end": "2023-10-01T05:10:40.240Z",
+        "created_at": "2023-09-30T17:37:25.626Z",
+        "updated_at": "2023-10-01T01:52:49.041Z",
+        "location_id": "974fd5a1-0290-40e8-b007-0dee7a9f6ba4",
+        "service_id": "6076a2b3-2b7c-40d7-ab6b-1df3d2191cc8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1330160-c70e-4143-b14d-c82074cbdc0f",
+        "shift_start": "2023-09-30T22:32:12.126Z",
+        "shift_end": "2023-10-01T11:05:52.506Z",
+        "created_at": "2023-09-30T18:15:31.975Z",
+        "updated_at": "2023-10-01T03:54:34.018Z",
+        "location_id": "00314c6b-db85-441c-90eb-88d066b5331a",
+        "service_id": "6076a2b3-2b7c-40d7-ab6b-1df3d2191cc8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38200509-a4cd-4953-9b99-9365da211c0d",
+        "shift_start": "2023-09-30T16:12:33.909Z",
+        "shift_end": "2023-10-01T03:07:03.552Z",
+        "created_at": "2023-09-30T16:24:47.839Z",
+        "updated_at": "2023-09-30T23:08:10.983Z",
+        "location_id": "00314c6b-db85-441c-90eb-88d066b5331a",
+        "service_id": "69b839e7-b5b5-41fb-8bc4-8ea2a945d8d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5186e998-2681-4983-907c-bcbff0fdfb40",
+        "shift_start": "2023-09-30T17:51:05.998Z",
+        "shift_end": "2023-10-01T12:27:07.716Z",
+        "created_at": "2023-09-30T18:56:41.161Z",
+        "updated_at": "2023-09-30T23:02:37.307Z",
+        "location_id": "00314c6b-db85-441c-90eb-88d066b5331a",
+        "service_id": "abf80c4f-51c9-4153-b7f7-4d19af26961b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "eac1ca3a-020f-4a35-8c8d-e47d58c8c96c",
+        "appointment_time": "2023-10-01T10:47:35.987Z",
+        "created_at": "2023-10-01T06:45:13.534Z",
+        "updated_at": "2023-10-01T10:47:04.568Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "5339751a-2725-44af-b2e9-baccb22aaec7",
+        "location_id": "967c8f3c-5242-4fc0-b2f5-f38916f4e75a",
+        "service_id": "6076a2b3-2b7c-40d7-ab6b-1df3d2191cc8"
+      },
+      {
+        "id": "5d312444-1c54-4705-a251-a61f51d2c5ae",
+        "appointment_time": "2023-09-30T18:24:04.179Z",
+        "created_at": "2023-10-01T13:09:45.839Z",
+        "updated_at": "2023-09-30T15:29:29.883Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "5339751a-2725-44af-b2e9-baccb22aaec7",
+        "location_id": "718f1f51-b5c2-459e-ac1e-1f9aa20fba5c",
+        "service_id": "6076a2b3-2b7c-40d7-ab6b-1df3d2191cc8"
+      },
+      {
+        "id": "6cb6b466-2b5d-435f-abd1-ce65337e10aa",
+        "appointment_time": "2023-09-30T17:53:31.256Z",
+        "created_at": "2023-10-01T06:22:35.783Z",
+        "updated_at": "2023-10-01T06:25:48.837Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "ed98d77c-8080-4d6f-aa3c-62173e237a55",
+        "location_id": "00314c6b-db85-441c-90eb-88d066b5331a",
+        "service_id": "69b839e7-b5b5-41fb-8bc4-8ea2a945d8d4"
+      },
+      {
+        "id": "11b81d28-ea2b-43c0-866f-ea8945b757b9",
+        "appointment_time": "2023-10-01T01:19:14.917Z",
+        "created_at": "2023-10-01T12:46:35.000Z",
+        "updated_at": "2023-10-01T03:33:00.367Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "5339751a-2725-44af-b2e9-baccb22aaec7",
+        "location_id": "bbd0523c-b2af-4e12-9cc0-5e58b0276a29",
+        "service_id": "4693bb75-fc68-4695-9b13-4191100f797a"
+      },
+      {
+        "id": "4cc0b7b9-287e-4e5f-9c24-e12920d7005e",
+        "appointment_time": "2023-10-01T10:22:40.764Z",
+        "created_at": "2023-10-01T10:03:33.579Z",
+        "updated_at": "2023-09-30T16:56:26.242Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "ed98d77c-8080-4d6f-aa3c-62173e237a55",
+        "location_id": "974fd5a1-0290-40e8-b007-0dee7a9f6ba4",
+        "service_id": "abf80c4f-51c9-4153-b7f7-4d19af26961b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f76a16d3-741e-4867-9d52-a8a1b7cf884e",
+        "email": "Eldora.Prohaska@roq.tech",
+        "firstName": "Lionel",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/961.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92e5aeab-80de-492d-9fbc-b2507a7b062c",
+        "email": "Elaina62@roq.tech",
+        "firstName": "Hans",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/39.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93de744c-3927-40e3-a3ac-aa3f6abc1f0f",
+        "email": "Mertie49@roq.tech",
+        "firstName": "Marge",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/551.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "87c4c4df-b3cd-41a0-aa5e-806aa704ab62",
+        "email": "Maggie91@roq.tech",
+        "firstName": "Vincenzo",
+        "lastName": "McClure-Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/365.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1047e7d-b51b-440f-b46f-ad84361fd3fc",
+        "email": "Winifred.Connelly69@roq.tech",
+        "firstName": "Joesph",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/934.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "164b3b22-e756-4b67-b805-ff804901dff8",
+        "created_at": "2023-09-30T18:26:30.928Z",
+        "updated_at": "2023-10-01T14:30:01.307Z"
+      },
+      {
+        "id": "11dfc747-0166-4a0a-89a2-efc9fb14e566",
+        "created_at": "2023-10-01T06:25:04.781Z",
+        "updated_at": "2023-10-01T11:31:16.079Z"
+      },
+      {
+        "id": "e79e4441-60dd-4c8d-b1d8-c58d91dee629",
+        "created_at": "2023-10-01T04:56:17.352Z",
+        "updated_at": "2023-10-01T07:36:39.803Z"
+      },
+      {
+        "id": "2e4d9b0d-db03-4056-b7cb-acd85364ff47",
+        "created_at": "2023-10-01T11:36:16.588Z",
+        "updated_at": "2023-10-01T04:18:53.823Z"
+      },
+      {
+        "id": "cb33d173-7e61-4ea9-9681-9e2373088f59",
+        "created_at": "2023-10-01T01:59:04.840Z",
+        "updated_at": "2023-10-01T04:13:28.460Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "1cd70a8d-48ef-4b81-8502-fb10c194909d",
+        "name": "Web Development",
+        "description": "We create stunning websites",
+        "duration": 24070,
+        "price": 2407,
+        "created_at": "2023-10-01T08:20:05.047Z",
+        "updated_at": "2023-10-01T05:33:15.349Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a9c4c847-0b33-4768-9727-b7f901c45b3c",
+        "name": "Graphic Design",
+        "description": "We design beautiful logos",
+        "duration": 67837,
+        "price": 63123,
+        "created_at": "2023-09-30T18:25:07.681Z",
+        "updated_at": "2023-10-01T07:26:37.310Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8cef767b-2f80-44b3-b6bd-ee25eb5e99af",
+        "name": "Digital Marketing",
+        "description": "We help businesses grow online",
+        "duration": 13257,
+        "price": 6755,
+        "created_at": "2023-10-01T00:20:29.568Z",
+        "updated_at": "2023-09-30T19:25:26.756Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f271c70-a307-4109-8c95-b7efdd653c4b",
+        "name": "Mobile App Development",
+        "description": "We build innovative mobile apps",
+        "duration": 2789,
+        "price": 40157,
+        "created_at": "2023-09-30T16:11:38.820Z",
+        "updated_at": "2023-10-01T12:32:42.121Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7e94c4a3-8149-4656-8e91-89e11b865631",
+        "name": "IT Consulting",
+        "description": "We provide expert IT solutions",
+        "duration": 49541,
+        "price": 55364,
+        "created_at": "2023-09-30T17:18:11.378Z",
+        "updated_at": "2023-09-30T21:07:30.450Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "bf755444-c006-46e8-8121-15b29aca1d53",
+        "name": "Headquarters",
+        "address": "789 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-30T18:08:45.195Z",
+        "updated_at": "2023-10-01T08:28:27.738Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9099a84a-7855-4cc5-a7df-92af647c6456",
+        "name": "Branch Office",
+        "address": "123 Elm St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-30T23:05:49.802Z",
+        "updated_at": "2023-09-30T23:27:50.905Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "09635070-4e30-4565-b0fe-d8418fb541e5",
+        "name": "Store",
+        "address": "456 Oak St",
+        "city": "Austin",
+        "state": "TX",
+        "zip_code": "78701",
+        "created_at": "2023-09-30T21:36:46.840Z",
+        "updated_at": "2023-09-30T16:02:16.792Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5255c72c-2a38-426f-befc-1d73922a8e3f",
+        "name": "Warehouse",
+        "address": "321 Pine St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-10-01T03:35:44.428Z",
+        "updated_at": "2023-09-30T17:15:57.045Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6569452e-bdc3-42a2-8e98-6ee3854648ff",
+        "name": "Facility",
+        "address": "654 Maple St",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-30T18:42:50.470Z",
+        "updated_at": "2023-10-01T02:39:52.353Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "dd8b6fdd-7a7e-446c-92c5-9bcd418d63c6",
+        "created_at": "2023-09-30T18:34:34.548Z",
+        "updated_at": "2023-09-30T22:20:45.365Z"
+      },
+      {
+        "id": "d4a7b4e8-6273-4454-af00-f36b5a146385",
+        "created_at": "2023-09-30T18:57:41.349Z",
+        "updated_at": "2023-10-01T09:29:21.079Z"
+      },
+      {
+        "id": "6167dc90-abd8-4e30-8806-16e6c0505562",
+        "created_at": "2023-10-01T13:54:49.054Z",
+        "updated_at": "2023-10-01T11:28:17.735Z"
+      },
+      {
+        "id": "412f8888-3b6b-45cb-8689-1f18cb4087aa",
+        "created_at": "2023-09-30T16:07:54.414Z",
+        "updated_at": "2023-10-01T12:14:21.727Z"
+      },
+      {
+        "id": "481d77b3-6da1-4bb1-bc3e-c1d8eb0af64f",
+        "created_at": "2023-09-30T21:54:21.272Z",
+        "updated_at": "2023-09-30T21:31:50.370Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "f9a5fdf3-0b72-4add-b001-9c181323876f",
+        "created_at": "2023-09-30T23:11:05.288Z",
+        "updated_at": "2023-09-30T21:12:30.203Z"
+      },
+      {
+        "id": "35ad38be-6921-4b3b-975e-06580b0f7b42",
+        "created_at": "2023-10-01T00:39:10.982Z",
+        "updated_at": "2023-10-01T14:55:39.244Z"
+      },
+      {
+        "id": "103f0f22-a3c4-4801-84ca-d99246a2fcc3",
+        "created_at": "2023-09-30T21:34:46.358Z",
+        "updated_at": "2023-10-01T12:20:26.188Z"
+      },
+      {
+        "id": "78cbdd89-e861-4a27-a515-aedccc1c81ce",
+        "created_at": "2023-09-30T16:24:29.508Z",
+        "updated_at": "2023-10-01T07:13:11.664Z"
+      },
+      {
+        "id": "d4c84c7c-f98e-41b7-a70e-c7fa35276ae3",
+        "created_at": "2023-09-30T20:49:49.389Z",
+        "updated_at": "2023-09-30T21:52:41.648Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "4bd92763-6ce9-47e3-bf6d-a4bf5c59bf37",
+        "shift_start": "2023-10-01T04:46:59.537Z",
+        "shift_end": "2023-10-01T10:22:14.089Z",
+        "created_at": "2023-10-01T02:41:20.921Z",
+        "updated_at": "2023-10-01T05:28:13.593Z",
+        "location_id": "6569452e-bdc3-42a2-8e98-6ee3854648ff",
+        "service_id": "8cef767b-2f80-44b3-b6bd-ee25eb5e99af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1b59322-ec8d-4605-9321-6a488ab067c0",
+        "shift_start": "2023-10-01T00:54:21.039Z",
+        "shift_end": "2023-10-01T07:12:50.674Z",
+        "created_at": "2023-09-30T22:56:13.456Z",
+        "updated_at": "2023-09-30T19:21:50.691Z",
+        "location_id": "5255c72c-2a38-426f-befc-1d73922a8e3f",
+        "service_id": "1cd70a8d-48ef-4b81-8502-fb10c194909d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8df82736-5722-408a-9c35-8c1d5a6519eb",
+        "shift_start": "2023-10-01T11:48:38.374Z",
+        "shift_end": "2023-09-30T17:55:23.293Z",
+        "created_at": "2023-09-30T22:18:21.530Z",
+        "updated_at": "2023-10-01T12:53:51.267Z",
+        "location_id": "bf755444-c006-46e8-8121-15b29aca1d53",
+        "service_id": "1cd70a8d-48ef-4b81-8502-fb10c194909d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0371e85f-5eb3-4944-8f8f-f49fbfd0fa1f",
+        "shift_start": "2023-10-01T10:04:17.565Z",
+        "shift_end": "2023-10-01T13:36:29.921Z",
+        "created_at": "2023-10-01T11:46:49.118Z",
+        "updated_at": "2023-10-01T01:39:34.637Z",
+        "location_id": "bf755444-c006-46e8-8121-15b29aca1d53",
+        "service_id": "7e94c4a3-8149-4656-8e91-89e11b865631",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8bd2c50-2004-4520-ba75-9ba87f2e5e6b",
+        "shift_start": "2023-10-01T10:35:02.651Z",
+        "shift_end": "2023-09-30T20:41:49.727Z",
+        "created_at": "2023-10-01T00:30:01.729Z",
+        "updated_at": "2023-10-01T07:11:54.054Z",
+        "location_id": "5255c72c-2a38-426f-befc-1d73922a8e3f",
+        "service_id": "6f271c70-a307-4109-8c95-b7efdd653c4b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "88ee1f86-5e99-4113-ae02-bf835afc7f59",
+        "appointment_time": "2023-10-01T02:27:23.496Z",
+        "created_at": "2023-09-30T20:46:04.013Z",
+        "updated_at": "2023-10-01T08:20:22.640Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "0371e85f-5eb3-4944-8f8f-f49fbfd0fa1f",
+        "location_id": "bf755444-c006-46e8-8121-15b29aca1d53",
+        "service_id": "7e94c4a3-8149-4656-8e91-89e11b865631"
+      },
+      {
+        "id": "29248557-b815-458c-9d63-f6a954e90a01",
+        "appointment_time": "2023-10-01T09:56:34.783Z",
+        "created_at": "2023-09-30T17:31:14.349Z",
+        "updated_at": "2023-10-01T14:55:48.920Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "f8bd2c50-2004-4520-ba75-9ba87f2e5e6b",
+        "location_id": "5255c72c-2a38-426f-befc-1d73922a8e3f",
+        "service_id": "a9c4c847-0b33-4768-9727-b7f901c45b3c"
+      },
+      {
+        "id": "f9245796-ebea-426e-a938-231a941dae9b",
+        "appointment_time": "2023-10-01T06:56:01.759Z",
+        "created_at": "2023-09-30T22:36:48.097Z",
+        "updated_at": "2023-10-01T06:39:23.147Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "4bd92763-6ce9-47e3-bf6d-a4bf5c59bf37",
+        "location_id": "09635070-4e30-4565-b0fe-d8418fb541e5",
+        "service_id": "6f271c70-a307-4109-8c95-b7efdd653c4b"
+      },
+      {
+        "id": "1180ad07-cc38-410b-90fa-24b3d26d09af",
+        "appointment_time": "2023-10-01T11:35:20.667Z",
+        "created_at": "2023-10-01T10:09:53.136Z",
+        "updated_at": "2023-10-01T03:26:12.558Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "f1b59322-ec8d-4605-9321-6a488ab067c0",
+        "location_id": "6569452e-bdc3-42a2-8e98-6ee3854648ff",
+        "service_id": "8cef767b-2f80-44b3-b6bd-ee25eb5e99af"
+      },
+      {
+        "id": "069e6e64-5c8a-4f85-a150-b3ea4b10ce6d",
+        "appointment_time": "2023-09-30T15:59:29.791Z",
+        "created_at": "2023-10-01T11:25:17.290Z",
+        "updated_at": "2023-10-01T03:40:15.006Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "4bd92763-6ce9-47e3-bf6d-a4bf5c59bf37",
+        "location_id": "9099a84a-7855-4cc5-a7df-92af647c6456",
+        "service_id": "a9c4c847-0b33-4768-9727-b7f901c45b3c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "21f476c2-bc50-4baa-b236-adb4b234a861",
+        "email": "Marilou_Schulist65@roq.tech",
+        "firstName": "Mariela",
+        "lastName": "Schaden-Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35539570",
+        "tenantId": null
+      },
+      {
+        "reference": "5040d51f-ba90-4e78-807b-ca6784c5b82a",
+        "email": "Nikko.Hegmann@roq.tech",
+        "firstName": "Van",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29268592",
+        "tenantId": null
+      },
+      {
+        "reference": "75c21458-72bb-4925-bf0d-cea19f70f080",
+        "email": "Fanny.Schinner15@roq.tech",
+        "firstName": "Roberto",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48313275",
+        "tenantId": null
+      },
+      {
+        "reference": "42955123-9835-432e-8551-960e48bf1457",
+        "email": "June44@roq.tech",
+        "firstName": "Delia",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73531774",
+        "tenantId": null
+      },
+      {
+        "reference": "6e4f6acc-dd00-4899-9491-83013f41bd98",
+        "email": "Gregg.Windler@roq.tech",
+        "firstName": "Anita",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/203.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "533732c5-271f-456a-9741-9b61f6cb1349",
+        "created_at": "2023-10-01T00:25:57.091Z",
+        "updated_at": "2023-09-30T19:52:33.168Z"
+      },
+      {
+        "id": "df4c7209-5ca1-4a45-a238-8ee32bd34185",
+        "created_at": "2023-10-01T05:01:13.382Z",
+        "updated_at": "2023-09-30T18:45:38.938Z"
+      },
+      {
+        "id": "3f911351-a387-4436-bf8c-4a43d0a724fe",
+        "created_at": "2023-10-01T00:30:44.489Z",
+        "updated_at": "2023-10-01T12:11:22.084Z"
+      },
+      {
+        "id": "cc121e6e-843e-4ed8-b7ab-afe71bcf8d5a",
+        "created_at": "2023-10-01T05:42:22.807Z",
+        "updated_at": "2023-09-30T17:05:15.547Z"
+      },
+      {
+        "id": "90d3e6ec-0efd-4608-8f91-e39c5df7f11f",
+        "created_at": "2023-09-30T21:22:06.037Z",
+        "updated_at": "2023-10-01T14:19:26.860Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "8d3fdb68-5cbc-4eef-927a-e2362cee441d",
+        "name": "Web Design",
+        "description": "We create visually appealing and user-friendly websites",
+        "duration": 21988,
+        "price": 16527,
+        "created_at": "2023-10-01T09:57:30.318Z",
+        "updated_at": "2023-09-30T23:13:34.133Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c91abf04-c1e2-454f-afce-3cc7a11bbef7",
+        "name": "Mobile App Development",
+        "description": "We develop innovative and intuitive mobile applications",
+        "duration": 35144,
+        "price": 26492,
+        "created_at": "2023-10-01T05:06:41.573Z",
+        "updated_at": "2023-10-01T03:27:34.799Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "057a5144-ca56-4aeb-a66e-43158f378f62",
+        "name": "Digital Marketing",
+        "description": "We help businesses grow their online presence and reach their target audience",
+        "duration": 83945,
+        "price": 82792,
+        "created_at": "2023-10-01T10:12:45.253Z",
+        "updated_at": "2023-09-30T20:39:13.387Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3fc7f0cb-7d9e-4ea6-bf19-6ae63068d027",
+        "name": "Cloud Computing",
+        "description": "We provide scalable and secure cloud solutions for businesses",
+        "duration": 42898,
+        "price": 53557,
+        "created_at": "2023-09-30T16:44:19.372Z",
+        "updated_at": "2023-10-01T02:51:31.959Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9c8f0b07-07d8-4984-9906-153be631bf58",
+        "name": "Data Analytics",
+        "description": "We analyze data to uncover valuable insights and drive informed decision-making",
+        "duration": 60093,
+        "price": 29407,
+        "created_at": "2023-10-01T06:26:50.658Z",
+        "updated_at": "2023-10-01T03:43:25.405Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "290fd6c7-79ad-4175-a5cc-6838ac20581f",
+        "name": "Central Park",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-30T15:49:00.285Z",
+        "updated_at": "2023-10-01T02:41:35.763Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bff52ee4-2ee0-4600-9edf-4c6d737c6114",
+        "name": "Golden Gate Bridge",
+        "address": "456 Elm Avenue",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94102",
+        "created_at": "2023-09-30T23:17:32.641Z",
+        "updated_at": "2023-10-01T10:47:31.092Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "71b9962e-9c8b-43e7-9dd0-ee75bf24fee7",
+        "name": "Willis Tower",
+        "address": "789 Oak Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-30T20:36:42.333Z",
+        "updated_at": "2023-10-01T10:24:41.551Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e08b7f8e-a3ba-4ac6-ad88-904c3e466cae",
+        "name": "Space Needle",
+        "address": "321 Pine Road",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-10-01T04:29:27.591Z",
+        "updated_at": "2023-10-01T02:17:10.109Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fd9e2276-1c63-4ecb-9c0f-2e2b22d6a110",
+        "name": "Everglades National Park",
+        "address": "654 Maple Court",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-10-01T02:14:34.063Z",
+        "updated_at": "2023-09-30T19:53:07.469Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "7b5844cc-4ece-491f-b228-1d6453bfdbc8",
+        "created_at": "2023-10-01T14:20:21.321Z",
+        "updated_at": "2023-10-01T01:23:27.841Z"
+      },
+      {
+        "id": "28dbafc7-9948-471b-97bb-7cb37ea46021",
+        "created_at": "2023-09-30T16:09:52.685Z",
+        "updated_at": "2023-10-01T08:39:32.499Z"
+      },
+      {
+        "id": "6319853c-4768-4ad4-9cda-8707bbde7de3",
+        "created_at": "2023-10-01T14:41:04.680Z",
+        "updated_at": "2023-09-30T21:43:01.130Z"
+      },
+      {
+        "id": "9f622e44-3ab5-4f1b-bae9-bba0e21b0a1a",
+        "created_at": "2023-10-01T14:03:36.323Z",
+        "updated_at": "2023-10-01T09:00:17.150Z"
+      },
+      {
+        "id": "320ca423-4b78-404d-bfed-f697d6037186",
+        "created_at": "2023-09-30T21:15:28.679Z",
+        "updated_at": "2023-10-01T07:21:35.135Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "a4dfe07c-f9bd-45e4-83f6-59e3a32adf25",
+        "created_at": "2023-10-01T01:00:44.163Z",
+        "updated_at": "2023-09-30T23:02:12.928Z"
+      },
+      {
+        "id": "2362511f-6408-4436-bcf0-f1bd8263a290",
+        "created_at": "2023-09-30T16:51:25.930Z",
+        "updated_at": "2023-10-01T00:41:52.027Z"
+      },
+      {
+        "id": "355e6cb0-3fc8-464b-80d6-8e5cfd5a3c92",
+        "created_at": "2023-09-30T22:49:53.117Z",
+        "updated_at": "2023-09-30T15:11:19.502Z"
+      },
+      {
+        "id": "5860ec47-22d2-4d9d-9d27-fbe49ab80a11",
+        "created_at": "2023-09-30T18:11:27.684Z",
+        "updated_at": "2023-09-30T16:21:57.470Z"
+      },
+      {
+        "id": "ff7953c0-993e-4f7c-b7d6-e4d056239d5e",
+        "created_at": "2023-10-01T13:13:13.219Z",
+        "updated_at": "2023-09-30T15:43:26.811Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "19982445-4ffe-4100-9adc-340f105a217a",
+        "shift_start": "2023-10-01T06:35:08.228Z",
+        "shift_end": "2023-10-01T04:47:02.166Z",
+        "created_at": "2023-09-30T19:25:36.975Z",
+        "updated_at": "2023-10-01T13:02:47.721Z",
+        "location_id": "290fd6c7-79ad-4175-a5cc-6838ac20581f",
+        "service_id": "c91abf04-c1e2-454f-afce-3cc7a11bbef7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0beffef8-eef8-4b7b-886a-0eca02dc5f48",
+        "shift_start": "2023-09-30T20:10:17.178Z",
+        "shift_end": "2023-09-30T17:25:22.284Z",
+        "created_at": "2023-09-30T21:43:36.460Z",
+        "updated_at": "2023-10-01T11:47:50.126Z",
+        "location_id": "71b9962e-9c8b-43e7-9dd0-ee75bf24fee7",
+        "service_id": "8d3fdb68-5cbc-4eef-927a-e2362cee441d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "297bd2a1-d4ef-44ff-86ad-482a2b74b476",
+        "shift_start": "2023-10-01T05:24:16.332Z",
+        "shift_end": "2023-10-01T02:51:36.464Z",
+        "created_at": "2023-10-01T08:26:06.182Z",
+        "updated_at": "2023-10-01T04:25:59.890Z",
+        "location_id": "bff52ee4-2ee0-4600-9edf-4c6d737c6114",
+        "service_id": "057a5144-ca56-4aeb-a66e-43158f378f62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3789cb57-05eb-455c-b4b5-082f36ffb646",
+        "shift_start": "2023-10-01T04:12:53.577Z",
+        "shift_end": "2023-09-30T23:04:53.437Z",
+        "created_at": "2023-10-01T00:51:57.337Z",
+        "updated_at": "2023-09-30T22:59:02.559Z",
+        "location_id": "290fd6c7-79ad-4175-a5cc-6838ac20581f",
+        "service_id": "9c8f0b07-07d8-4984-9906-153be631bf58",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1a514b3-a198-46a4-ad96-b696495733a0",
+        "shift_start": "2023-10-01T13:40:36.779Z",
+        "shift_end": "2023-09-30T21:21:45.550Z",
+        "created_at": "2023-10-01T09:34:01.825Z",
+        "updated_at": "2023-10-01T00:47:03.050Z",
+        "location_id": "bff52ee4-2ee0-4600-9edf-4c6d737c6114",
+        "service_id": "057a5144-ca56-4aeb-a66e-43158f378f62",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3d2745b3-ea01-4131-90c7-8c595ddd7990",
+        "appointment_time": "2023-10-01T12:26:45.589Z",
+        "created_at": "2023-09-30T15:49:30.097Z",
+        "updated_at": "2023-10-01T00:10:00.499Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "19982445-4ffe-4100-9adc-340f105a217a",
+        "location_id": "fd9e2276-1c63-4ecb-9c0f-2e2b22d6a110",
+        "service_id": "3fc7f0cb-7d9e-4ea6-bf19-6ae63068d027"
+      },
+      {
+        "id": "46e39e50-dd17-439e-9f19-7bcfb95996ba",
+        "appointment_time": "2023-10-01T10:35:04.465Z",
+        "created_at": "2023-10-01T10:32:21.521Z",
+        "updated_at": "2023-10-01T10:39:06.833Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "c1a514b3-a198-46a4-ad96-b696495733a0",
+        "location_id": "e08b7f8e-a3ba-4ac6-ad88-904c3e466cae",
+        "service_id": "8d3fdb68-5cbc-4eef-927a-e2362cee441d"
+      },
+      {
+        "id": "34ea9e8d-3305-42e4-aedc-da57b151b760",
+        "appointment_time": "2023-09-30T16:11:46.029Z",
+        "created_at": "2023-10-01T10:45:48.571Z",
+        "updated_at": "2023-09-30T15:55:32.577Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "297bd2a1-d4ef-44ff-86ad-482a2b74b476",
+        "location_id": "e08b7f8e-a3ba-4ac6-ad88-904c3e466cae",
+        "service_id": "9c8f0b07-07d8-4984-9906-153be631bf58"
+      },
+      {
+        "id": "6421b140-9680-4e8c-aaaf-3addc6972542",
+        "appointment_time": "2023-10-01T06:26:42.584Z",
+        "created_at": "2023-10-01T07:20:08.578Z",
+        "updated_at": "2023-10-01T10:01:08.333Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "297bd2a1-d4ef-44ff-86ad-482a2b74b476",
+        "location_id": "290fd6c7-79ad-4175-a5cc-6838ac20581f",
+        "service_id": "057a5144-ca56-4aeb-a66e-43158f378f62"
+      },
+      {
+        "id": "7c006061-e3d6-41fc-8894-371c77ac0dee",
+        "appointment_time": "2023-10-01T01:08:44.577Z",
+        "created_at": "2023-09-30T21:36:39.977Z",
+        "updated_at": "2023-09-30T22:58:54.898Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "297bd2a1-d4ef-44ff-86ad-482a2b74b476",
+        "location_id": "e08b7f8e-a3ba-4ac6-ad88-904c3e466cae",
+        "service_id": "8d3fdb68-5cbc-4eef-927a-e2362cee441d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "233476d5-b02d-4015-899e-d2e31fb5c4d2",
+        "email": "Margret.Botsford77@roq.tech",
+        "firstName": "Bernie",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35591832",
+        "tenantId": null
+      },
+      {
+        "reference": "10315082-624d-4179-b889-2274fbd1a575",
+        "email": "Elisa53@roq.tech",
+        "firstName": "Gennaro",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44103298",
+        "tenantId": null
+      },
+      {
+        "reference": "856880c0-0514-4fea-b418-4bab3f0efbb0",
+        "email": "Oceane.Mayer@roq.tech",
+        "firstName": "Anthony",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/161.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c28e4d7b-dc53-4611-b220-b56cc572d6b9",
+        "email": "Bridie68@roq.tech",
+        "firstName": "Nicholaus",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/98.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "59e44b15-b456-422f-bd57-08fd727fb149",
+        "email": "Everardo_Feil@roq.tech",
+        "firstName": "Mateo",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61746513",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "91ee6d00-33b1-4726-94f0-af70c1e4c2ba",
+        "created_at": "2023-10-01T06:02:37.906Z",
+        "updated_at": "2023-09-30T17:07:48.588Z"
+      },
+      {
+        "id": "dcc3f147-e0d9-4b7b-bf76-3645d551f422",
+        "created_at": "2023-09-30T19:20:37.355Z",
+        "updated_at": "2023-10-01T11:19:16.250Z"
+      },
+      {
+        "id": "e480fea7-4154-470d-a48c-08a188927b3a",
+        "created_at": "2023-10-01T04:44:53.968Z",
+        "updated_at": "2023-10-01T07:16:21.349Z"
+      },
+      {
+        "id": "86841b6d-14d5-4f69-a1e6-132e7c2d340f",
+        "created_at": "2023-09-30T19:15:53.146Z",
+        "updated_at": "2023-10-01T01:43:37.277Z"
+      },
+      {
+        "id": "a7f9c42a-7929-4ce3-9951-e9ade739475b",
+        "created_at": "2023-10-01T06:53:55.095Z",
+        "updated_at": "2023-10-01T08:45:17.676Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "faf03119-7ff6-4b62-b4ee-0fb5e07dd9b6",
+        "name": "Web Development",
+        "description": "Custom website development",
+        "duration": 91666,
+        "price": 44681,
+        "created_at": "2023-10-01T11:21:07.345Z",
+        "updated_at": "2023-09-30T16:46:32.063Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "978effa2-72b6-4430-8443-8be5a594cff2",
+        "name": "Graphic Design",
+        "description": "Creative visual design solutions",
+        "duration": 97019,
+        "price": 4822,
+        "created_at": "2023-10-01T06:34:40.291Z",
+        "updated_at": "2023-10-01T11:12:01.238Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "110398e4-e01c-4e62-8409-eb83dc6141ea",
+        "name": "Marketing Strategy",
+        "description": "Strategic marketing planning",
+        "duration": 87729,
+        "price": 90959,
+        "created_at": "2023-10-01T13:00:11.776Z",
+        "updated_at": "2023-09-30T23:09:59.126Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c81a1596-58fa-431f-b29b-d53d482cd6cf",
+        "name": "IT Consulting",
+        "description": "Technology consulting services",
+        "duration": 10404,
+        "price": 43962,
+        "created_at": "2023-09-30T23:50:40.088Z",
+        "updated_at": "2023-10-01T13:07:46.826Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e6292e14-6142-4c73-aaf8-19ca0217a9d0",
+        "name": "Social Media Management",
+        "description": "Social media content creation and management",
+        "duration": 68563,
+        "price": 64573,
+        "created_at": "2023-10-01T08:26:18.842Z",
+        "updated_at": "2023-10-01T05:55:32.476Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "4e915012-90ae-4136-9a33-2d456e6488ca",
+        "name": "Headquarters",
+        "address": "789 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-10-01T12:17:46.609Z",
+        "updated_at": "2023-09-30T21:02:32.872Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7fad4b84-3de2-478d-9dec-322cba46044a",
+        "name": "Branch Office",
+        "address": "456 Elm St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-10-01T13:24:28.288Z",
+        "updated_at": "2023-10-01T13:25:48.546Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9270f277-d705-4856-9380-41c667fccd82",
+        "name": "Store",
+        "address": "123 Oak St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80202",
+        "created_at": "2023-09-30T21:38:33.425Z",
+        "updated_at": "2023-09-30T19:34:01.562Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1fda743c-00bd-4d0c-8c7e-33f61108df50",
+        "name": "Facility",
+        "address": "321 Maple St",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-09-30T23:35:14.663Z",
+        "updated_at": "2023-09-30T15:38:29.860Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "986ea77a-4ab3-4a60-b52f-35862e367c06",
+        "name": "Venue",
+        "address": "654 Pine St",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-10-01T11:09:27.988Z",
+        "updated_at": "2023-09-30T16:36:51.522Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "f32769b9-4467-4b28-a16e-f0372ed483c9",
+        "created_at": "2023-09-30T15:10:32.074Z",
+        "updated_at": "2023-10-01T13:57:15.661Z"
+      },
+      {
+        "id": "2b22d14e-6de8-4d80-8886-1b2a9e28ec88",
+        "created_at": "2023-10-01T04:13:36.979Z",
+        "updated_at": "2023-09-30T23:06:51.012Z"
+      },
+      {
+        "id": "5b3df265-d7f6-4594-b334-8b6d41f90fd8",
+        "created_at": "2023-10-01T14:07:57.352Z",
+        "updated_at": "2023-10-01T07:32:42.689Z"
+      },
+      {
+        "id": "f95e8e1b-37fc-4354-8bb1-cda172dab363",
+        "created_at": "2023-09-30T22:44:17.272Z",
+        "updated_at": "2023-09-30T23:12:11.651Z"
+      },
+      {
+        "id": "fdf3abb4-06c0-4be9-be58-4d1c2ef9a201",
+        "created_at": "2023-10-01T04:30:28.907Z",
+        "updated_at": "2023-09-30T20:15:50.835Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "9eaae811-2046-4c12-a4e3-e154277ab3f0",
+        "created_at": "2023-09-30T15:59:09.196Z",
+        "updated_at": "2023-10-01T09:27:37.207Z"
+      },
+      {
+        "id": "411247f6-7823-4ad7-9900-1acfe7715c79",
+        "created_at": "2023-10-01T13:49:05.436Z",
+        "updated_at": "2023-09-30T22:20:11.300Z"
+      },
+      {
+        "id": "2ef91c6b-4819-4ffd-936f-f9ae14160709",
+        "created_at": "2023-10-01T12:58:38.491Z",
+        "updated_at": "2023-09-30T18:24:47.041Z"
+      },
+      {
+        "id": "477b9f94-0272-4972-b29b-cb23af5706c0",
+        "created_at": "2023-10-01T12:27:25.581Z",
+        "updated_at": "2023-10-01T12:32:43.819Z"
+      },
+      {
+        "id": "890d4d61-e6b0-4946-b3cd-96123f75ef5c",
+        "created_at": "2023-09-30T20:46:28.005Z",
+        "updated_at": "2023-09-30T22:05:58.229Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "4713254e-3359-476e-9f65-f99488f2810c",
+        "shift_start": "2023-09-30T15:13:41.185Z",
+        "shift_end": "2023-10-01T06:06:40.525Z",
+        "created_at": "2023-10-01T03:01:14.243Z",
+        "updated_at": "2023-09-30T23:12:58.300Z",
+        "location_id": "9270f277-d705-4856-9380-41c667fccd82",
+        "service_id": "110398e4-e01c-4e62-8409-eb83dc6141ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "962db1e1-2603-4925-895f-d53a43521af6",
+        "shift_start": "2023-09-30T20:10:57.383Z",
+        "shift_end": "2023-10-01T02:51:45.252Z",
+        "created_at": "2023-10-01T01:22:50.525Z",
+        "updated_at": "2023-09-30T23:25:30.900Z",
+        "location_id": "986ea77a-4ab3-4a60-b52f-35862e367c06",
+        "service_id": "978effa2-72b6-4430-8443-8be5a594cff2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efe3fca2-1d02-4dc9-b751-2a11eb98e673",
+        "shift_start": "2023-10-01T13:17:22.543Z",
+        "shift_end": "2023-10-01T01:50:47.268Z",
+        "created_at": "2023-09-30T17:43:46.129Z",
+        "updated_at": "2023-10-01T10:25:40.701Z",
+        "location_id": "4e915012-90ae-4136-9a33-2d456e6488ca",
+        "service_id": "e6292e14-6142-4c73-aaf8-19ca0217a9d0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "613bbc35-ac67-452c-88e3-77de4b7a32ac",
+        "shift_start": "2023-10-01T01:05:48.324Z",
+        "shift_end": "2023-09-30T16:52:01.710Z",
+        "created_at": "2023-09-30T15:20:47.613Z",
+        "updated_at": "2023-10-01T10:18:04.249Z",
+        "location_id": "7fad4b84-3de2-478d-9dec-322cba46044a",
+        "service_id": "c81a1596-58fa-431f-b29b-d53d482cd6cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49eec6f3-cac7-4508-947d-3561e9e1673c",
+        "shift_start": "2023-10-01T00:27:31.297Z",
+        "shift_end": "2023-10-01T00:05:18.727Z",
+        "created_at": "2023-10-01T02:59:18.397Z",
+        "updated_at": "2023-10-01T05:31:19.266Z",
+        "location_id": "1fda743c-00bd-4d0c-8c7e-33f61108df50",
+        "service_id": "978effa2-72b6-4430-8443-8be5a594cff2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "7f0055bc-9071-4dfd-8e68-2de19395df42",
+        "appointment_time": "2023-09-30T18:29:40.032Z",
+        "created_at": "2023-10-01T03:36:25.771Z",
+        "updated_at": "2023-10-01T07:09:32.801Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "4713254e-3359-476e-9f65-f99488f2810c",
+        "location_id": "986ea77a-4ab3-4a60-b52f-35862e367c06",
+        "service_id": "e6292e14-6142-4c73-aaf8-19ca0217a9d0"
+      },
+      {
+        "id": "e027b97f-e6aa-4470-8988-1c22b39f7504",
+        "appointment_time": "2023-10-01T02:16:42.136Z",
+        "created_at": "2023-10-01T10:02:42.185Z",
+        "updated_at": "2023-09-30T18:40:29.591Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "962db1e1-2603-4925-895f-d53a43521af6",
+        "location_id": "4e915012-90ae-4136-9a33-2d456e6488ca",
+        "service_id": "e6292e14-6142-4c73-aaf8-19ca0217a9d0"
+      },
+      {
+        "id": "2737112e-276d-4c09-b92d-940248d95c75",
+        "appointment_time": "2023-10-01T08:11:11.202Z",
+        "created_at": "2023-10-01T00:35:32.241Z",
+        "updated_at": "2023-10-01T01:25:03.339Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "efe3fca2-1d02-4dc9-b751-2a11eb98e673",
+        "location_id": "4e915012-90ae-4136-9a33-2d456e6488ca",
+        "service_id": "978effa2-72b6-4430-8443-8be5a594cff2"
+      },
+      {
+        "id": "e42f51ae-fc3c-4567-a1ac-c03718a8ab03",
+        "appointment_time": "2023-10-01T01:28:55.235Z",
+        "created_at": "2023-09-30T20:52:03.376Z",
+        "updated_at": "2023-10-01T03:35:47.778Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "efe3fca2-1d02-4dc9-b751-2a11eb98e673",
+        "location_id": "986ea77a-4ab3-4a60-b52f-35862e367c06",
+        "service_id": "110398e4-e01c-4e62-8409-eb83dc6141ea"
+      },
+      {
+        "id": "0d339e0c-52c9-4440-9bab-a75f74e0c801",
+        "appointment_time": "2023-09-30T17:38:05.765Z",
+        "created_at": "2023-10-01T02:26:56.709Z",
+        "updated_at": "2023-09-30T17:48:38.254Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "962db1e1-2603-4925-895f-d53a43521af6",
+        "location_id": "4e915012-90ae-4136-9a33-2d456e6488ca",
+        "service_id": "faf03119-7ff6-4b62-b4ee-0fb5e07dd9b6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a3bb9415-9d00-461b-8952-3cf14ce583ac",
+        "email": "Reta_Rippin68@roq.tech",
+        "firstName": "Laury",
+        "lastName": "Koelpin-Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96f304df-a38a-43c0-8685-bd1ac9d3c8c5",
+        "email": "Jo_Maggio77@roq.tech",
+        "firstName": "Katarina",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8034095",
+        "tenantId": null
+      },
+      {
+        "reference": "2e99ca63-708e-4f9b-a1aa-c5e5a19f45e4",
+        "email": "Elena.Wuckert@roq.tech",
+        "firstName": "Jennifer",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33629160",
+        "tenantId": null
+      },
+      {
+        "reference": "6302bcac-f8f6-43b9-9bca-7431380c99d4",
+        "email": "Elizabeth_Marks79@roq.tech",
+        "firstName": "Myrtice",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49011186",
+        "tenantId": null
+      },
+      {
+        "reference": "14d384fe-a084-4207-8941-3330358ad839",
+        "email": "Howard95@roq.tech",
+        "firstName": "Clarissa",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1624795",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "41adfba2-e15d-48d6-b581-dea532753002",
+        "created_at": "2023-09-30T21:54:22.476Z",
+        "updated_at": "2023-09-30T20:21:12.919Z"
+      },
+      {
+        "id": "6bf29973-5f1c-4804-be85-eef5703f3998",
+        "created_at": "2023-10-01T13:15:33.180Z",
+        "updated_at": "2023-10-01T10:16:40.599Z"
+      },
+      {
+        "id": "580a85fd-7cbf-4a78-8c74-a3e9ebdbd8f3",
+        "created_at": "2023-10-01T01:19:24.182Z",
+        "updated_at": "2023-09-30T18:46:05.613Z"
+      },
+      {
+        "id": "c78e2405-0d6b-4ebd-99f6-fb7720e03bf4",
+        "created_at": "2023-09-30T17:28:25.454Z",
+        "updated_at": "2023-09-30T18:45:59.196Z"
+      },
+      {
+        "id": "444be6b5-efc3-4a53-953b-4f328f949710",
+        "created_at": "2023-09-30T21:00:13.054Z",
+        "updated_at": "2023-09-30T19:56:38.880Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "2b7a8565-e4cd-4d15-918a-dc24d0331bed",
+        "name": "Web Development",
+        "description": "Professional website development services",
+        "duration": 15202,
+        "price": 3,
+        "created_at": "2023-10-01T08:44:22.873Z",
+        "updated_at": "2023-10-01T10:29:16.654Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "405ecc23-e710-48a2-a951-012e9367f012",
+        "name": "Digital Marketing",
+        "description": "Effective online marketing strategies",
+        "duration": 4368,
+        "price": 75227,
+        "created_at": "2023-09-30T16:49:38.994Z",
+        "updated_at": "2023-10-01T14:16:18.992Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e298ccb1-3fa7-4192-9782-757444819f7d",
+        "name": "Graphic Design",
+        "description": "Creative and visually appealing designs",
+        "duration": 11356,
+        "price": 52674,
+        "created_at": "2023-10-01T10:13:16.793Z",
+        "updated_at": "2023-10-01T04:35:43.119Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bd800473-e818-48ca-a30e-89cc3e799982",
+        "name": "Mobile App Development",
+        "description": "Custom mobile application development",
+        "duration": 5377,
+        "price": 58353,
+        "created_at": "2023-10-01T12:28:06.444Z",
+        "updated_at": "2023-10-01T03:13:06.030Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4266deef-6dd7-4898-8157-ef28ffa30f1f",
+        "name": "IT Consulting",
+        "description": "Expert advice on IT solutions",
+        "duration": 88225,
+        "price": 4096,
+        "created_at": "2023-09-30T19:48:17.177Z",
+        "updated_at": "2023-10-01T03:32:50.517Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "fc0a86d7-cd2e-49f8-a663-24ba5f349849",
+        "name": "Central Park",
+        "address": "1 Central Park West",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10023",
+        "created_at": "2023-10-01T09:20:20.913Z",
+        "updated_at": "2023-10-01T00:14:30.136Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "68fae92d-4a3d-45e5-9ce2-3d4d20e6d0e4",
+        "name": "Golden Gate Bridge",
+        "address": "Golden Gate Bridge Road",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94129",
+        "created_at": "2023-10-01T02:18:18.128Z",
+        "updated_at": "2023-10-01T12:39:59.603Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c7be21c-f0d7-4a3c-9135-bfbbe6a85221",
+        "name": "Millennium Park",
+        "address": "201 E Randolph St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60602",
+        "created_at": "2023-10-01T13:49:25.792Z",
+        "updated_at": "2023-10-01T10:19:10.735Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d6aae879-86b8-450c-99d5-7424795608cf",
+        "name": "Space Needle",
+        "address": "400 Broad St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98109",
+        "created_at": "2023-10-01T09:28:39.603Z",
+        "updated_at": "2023-10-01T10:49:54.165Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2fc48e33-f9e6-4b76-83a9-725156f662d5",
+        "name": "Statue of Liberty",
+        "address": "Liberty Island",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10004",
+        "created_at": "2023-10-01T00:55:52.831Z",
+        "updated_at": "2023-10-01T04:30:22.854Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "12841929-ea0a-48b3-b48e-69959f7f37e2",
+        "created_at": "2023-10-01T13:11:23.796Z",
+        "updated_at": "2023-10-01T05:04:50.997Z"
+      },
+      {
+        "id": "bc885e0c-d853-4626-88f8-9d9a7c0ab159",
+        "created_at": "2023-09-30T21:44:35.099Z",
+        "updated_at": "2023-10-01T04:18:58.306Z"
+      },
+      {
+        "id": "73d50505-5494-42e2-a4f7-34f2db9950ca",
+        "created_at": "2023-09-30T18:25:03.640Z",
+        "updated_at": "2023-09-30T18:07:55.292Z"
+      },
+      {
+        "id": "b876fce9-abda-493e-95db-0eb4394cd46f",
+        "created_at": "2023-09-30T18:50:14.164Z",
+        "updated_at": "2023-10-01T14:54:14.804Z"
+      },
+      {
+        "id": "bb177237-79a6-4581-813f-464fb51e7a0b",
+        "created_at": "2023-10-01T12:27:40.557Z",
+        "updated_at": "2023-10-01T14:08:03.265Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "e1de3808-c908-41f4-8c6b-13710784055a",
+        "created_at": "2023-09-30T16:25:58.386Z",
+        "updated_at": "2023-10-01T07:48:14.881Z"
+      },
+      {
+        "id": "084032cd-abb1-41f4-804c-2de421080d60",
+        "created_at": "2023-10-01T12:29:04.405Z",
+        "updated_at": "2023-10-01T08:06:34.292Z"
+      },
+      {
+        "id": "ee37e389-74de-4c80-9c92-da3b97ddf01a",
+        "created_at": "2023-10-01T01:17:46.456Z",
+        "updated_at": "2023-09-30T21:53:57.438Z"
+      },
+      {
+        "id": "4f3e1264-0974-45b2-ab1a-82a571af6b8b",
+        "created_at": "2023-09-30T15:34:21.011Z",
+        "updated_at": "2023-10-01T14:51:32.909Z"
+      },
+      {
+        "id": "b1b93d51-9f9b-4c43-945e-bcb3b0cec7d0",
+        "created_at": "2023-09-30T15:39:31.914Z",
+        "updated_at": "2023-09-30T18:58:39.942Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "06bfd0ba-47e6-4326-8b50-d4921e40a961",
+        "shift_start": "2023-09-30T15:22:00.126Z",
+        "shift_end": "2023-10-01T07:46:39.731Z",
+        "created_at": "2023-09-30T21:39:08.347Z",
+        "updated_at": "2023-10-01T08:43:14.492Z",
+        "location_id": "fc0a86d7-cd2e-49f8-a663-24ba5f349849",
+        "service_id": "2b7a8565-e4cd-4d15-918a-dc24d0331bed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f81199c-dc13-41d3-8ba0-e6943a682de5",
+        "shift_start": "2023-10-01T14:42:08.220Z",
+        "shift_end": "2023-10-01T14:27:04.376Z",
+        "created_at": "2023-10-01T10:53:58.756Z",
+        "updated_at": "2023-09-30T21:12:13.067Z",
+        "location_id": "d6aae879-86b8-450c-99d5-7424795608cf",
+        "service_id": "405ecc23-e710-48a2-a951-012e9367f012",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bfc0869-0846-456b-982a-7d36c5bad797",
+        "shift_start": "2023-09-30T17:53:55.742Z",
+        "shift_end": "2023-10-01T00:54:49.349Z",
+        "created_at": "2023-09-30T18:02:57.532Z",
+        "updated_at": "2023-09-30T19:43:44.338Z",
+        "location_id": "d6aae879-86b8-450c-99d5-7424795608cf",
+        "service_id": "2b7a8565-e4cd-4d15-918a-dc24d0331bed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16ba3f87-c4a8-496c-9287-54cd55d83ee9",
+        "shift_start": "2023-10-01T07:48:50.041Z",
+        "shift_end": "2023-10-01T08:53:51.887Z",
+        "created_at": "2023-09-30T16:26:30.024Z",
+        "updated_at": "2023-10-01T00:44:55.927Z",
+        "location_id": "d6aae879-86b8-450c-99d5-7424795608cf",
+        "service_id": "e298ccb1-3fa7-4192-9782-757444819f7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c6bba55-71d6-499e-88e2-95915ca34db3",
+        "shift_start": "2023-10-01T08:58:15.020Z",
+        "shift_end": "2023-10-01T08:22:14.668Z",
+        "created_at": "2023-10-01T11:02:20.154Z",
+        "updated_at": "2023-10-01T04:41:50.845Z",
+        "location_id": "fc0a86d7-cd2e-49f8-a663-24ba5f349849",
+        "service_id": "405ecc23-e710-48a2-a951-012e9367f012",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "bac0a174-74ba-40fd-b5d8-12df81184727",
+        "appointment_time": "2023-09-30T15:56:03.178Z",
+        "created_at": "2023-10-01T11:22:05.102Z",
+        "updated_at": "2023-10-01T11:27:02.996Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "3bfc0869-0846-456b-982a-7d36c5bad797",
+        "location_id": "68fae92d-4a3d-45e5-9ce2-3d4d20e6d0e4",
+        "service_id": "4266deef-6dd7-4898-8157-ef28ffa30f1f"
+      },
+      {
+        "id": "7feda6c9-9261-46e1-8021-f3245ed21df8",
+        "appointment_time": "2023-10-01T01:43:05.510Z",
+        "created_at": "2023-09-30T19:56:42.092Z",
+        "updated_at": "2023-09-30T23:37:25.093Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "16ba3f87-c4a8-496c-9287-54cd55d83ee9",
+        "location_id": "68fae92d-4a3d-45e5-9ce2-3d4d20e6d0e4",
+        "service_id": "bd800473-e818-48ca-a30e-89cc3e799982"
+      },
+      {
+        "id": "9c8d50d8-bb0c-4e62-b0e0-2821bdf98913",
+        "appointment_time": "2023-09-30T19:31:15.366Z",
+        "created_at": "2023-10-01T09:59:07.356Z",
+        "updated_at": "2023-09-30T15:43:26.956Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "0c6bba55-71d6-499e-88e2-95915ca34db3",
+        "location_id": "fc0a86d7-cd2e-49f8-a663-24ba5f349849",
+        "service_id": "2b7a8565-e4cd-4d15-918a-dc24d0331bed"
+      },
+      {
+        "id": "1fdc374e-c96d-438e-96fb-71f5fe043485",
+        "appointment_time": "2023-10-01T12:19:49.788Z",
+        "created_at": "2023-10-01T13:58:58.835Z",
+        "updated_at": "2023-10-01T03:22:03.421Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "0c6bba55-71d6-499e-88e2-95915ca34db3",
+        "location_id": "68fae92d-4a3d-45e5-9ce2-3d4d20e6d0e4",
+        "service_id": "bd800473-e818-48ca-a30e-89cc3e799982"
+      },
+      {
+        "id": "50554d54-9401-4679-b116-356192c34ecc",
+        "appointment_time": "2023-09-30T16:28:40.268Z",
+        "created_at": "2023-09-30T20:16:53.632Z",
+        "updated_at": "2023-09-30T22:27:14.676Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "0c6bba55-71d6-499e-88e2-95915ca34db3",
+        "location_id": "68fae92d-4a3d-45e5-9ce2-3d4d20e6d0e4",
+        "service_id": "e298ccb1-3fa7-4192-9782-757444819f7d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "41b416b2-0599-4175-9fbb-c1f19b32c79c",
+        "email": "Cindy94@roq.tech",
+        "firstName": "Michelle",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/156.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62b4c350-d971-4fa4-8c30-6dc1a2d7be10",
+        "email": "Gladyce0@roq.tech",
+        "firstName": "Raleigh",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d052ff83-75cc-4efc-b582-03290d9eb4a0",
+        "email": "Colby_McKenzie27@roq.tech",
+        "firstName": "Edward",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1041.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "094bd390-2d31-4070-8830-d4dae20fb270",
+        "email": "Kendrick.DuBuque@roq.tech",
+        "firstName": "Fleta",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1408076",
+        "tenantId": null
+      },
+      {
+        "reference": "51e88510-88e4-49e9-8aea-0c1a3a2a3558",
+        "email": "Sherman.Considine72@roq.tech",
+        "firstName": "Chloe",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86266952",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "af048416-c1ed-45d7-b6c7-55946a6796d1",
+        "created_at": "2023-09-30T21:00:14.860Z",
+        "updated_at": "2023-10-01T09:47:54.650Z"
+      },
+      {
+        "id": "84794d6c-3c4f-4623-b01e-3b20665a16df",
+        "created_at": "2023-10-01T00:29:47.859Z",
+        "updated_at": "2023-10-01T05:07:19.533Z"
+      },
+      {
+        "id": "eea400aa-6a92-4e04-92ea-49c736d03254",
+        "created_at": "2023-10-01T08:27:16.104Z",
+        "updated_at": "2023-09-30T23:55:51.134Z"
+      },
+      {
+        "id": "7fb09b30-111f-4826-a740-ee786f7f12b7",
+        "created_at": "2023-10-01T12:55:23.862Z",
+        "updated_at": "2023-09-30T18:06:08.064Z"
+      },
+      {
+        "id": "b6cbe30f-c1ae-4580-82b4-baa0d7bac766",
+        "created_at": "2023-10-01T07:21:41.908Z",
+        "updated_at": "2023-10-01T04:02:30.477Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "77dc3bc4-acfe-4df7-901c-f0a4ac815c7a",
+        "name": "Web Development",
+        "description": "Custom website development tailored to your business needs",
+        "duration": 79109,
+        "price": 21398,
+        "created_at": "2023-09-30T16:33:57.309Z",
+        "updated_at": "2023-10-01T01:28:34.757Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "12a58000-caba-4590-9975-0d03e1d18bdc",
+        "name": "Graphic Design",
+        "description": "Creative design solutions for branding and marketing materials",
+        "duration": 7977,
+        "price": 96331,
+        "created_at": "2023-10-01T12:52:01.749Z",
+        "updated_at": "2023-10-01T01:32:19.325Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf4a7cb1-3f3f-4d89-8980-ceb5b1ac2b24",
+        "name": "Marketing Strategy",
+        "description": "Strategic planning and execution to drive business growth",
+        "duration": 83318,
+        "price": 22172,
+        "created_at": "2023-10-01T04:25:46.325Z",
+        "updated_at": "2023-10-01T09:10:52.979Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3f30226c-92f5-4abf-9c92-a2c6c70e7de3",
+        "name": "IT Consulting",
+        "description": "Expert advice and support for all your IT needs",
+        "duration": 63192,
+        "price": 93132,
+        "created_at": "2023-10-01T13:31:36.429Z",
+        "updated_at": "2023-10-01T13:00:07.109Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6088a1eb-1ded-4e33-af4c-3a88e40fb04c",
+        "name": "Financial Planning",
+        "description": "Personalized financial advice and investment management",
+        "duration": 67228,
+        "price": 86385,
+        "created_at": "2023-09-30T17:44:02.124Z",
+        "updated_at": "2023-10-01T08:33:37.703Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "7ecc9c62-93dc-4a21-a1f4-bb47a0e09691",
+        "name": "Main Office",
+        "address": "111 First Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-10-01T09:30:25.629Z",
+        "updated_at": "2023-10-01T00:18:26.843Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c0fd0744-b2eb-48bf-b39c-c2187bbcc5ea",
+        "name": "Branch 1",
+        "address": "222 Second Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-10-01T08:53:44.036Z",
+        "updated_at": "2023-09-30T18:21:57.757Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "560a29c9-a4a6-4fd8-9cf4-c3c839433cf7",
+        "name": "Branch 2",
+        "address": "333 Third Lane",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-10-01T02:52:31.172Z",
+        "updated_at": "2023-09-30T21:27:23.664Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "034bc4fc-4bf1-4cd1-8d4b-0186e0bd0400",
+        "name": "Headquarters",
+        "address": "444 Fourth Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-10-01T02:41:21.761Z",
+        "updated_at": "2023-10-01T14:40:27.355Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0530c2d9-c4e9-45ab-b3db-70fa1d17aea4",
+        "name": "Storefront",
+        "address": "555 Fifth Road",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-30T18:57:25.873Z",
+        "updated_at": "2023-10-01T08:13:43.274Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "ad3539a1-91cf-46b4-9a08-726ffa966adc",
+        "created_at": "2023-09-30T19:25:18.572Z",
+        "updated_at": "2023-10-01T14:26:14.133Z"
+      },
+      {
+        "id": "92fa7f79-7b2d-4530-b057-ba90b41fb033",
+        "created_at": "2023-10-01T12:44:09.599Z",
+        "updated_at": "2023-10-01T06:49:59.529Z"
+      },
+      {
+        "id": "a9a2c0ce-a392-45b2-a0c6-ffe8db38a00d",
+        "created_at": "2023-10-01T07:43:46.830Z",
+        "updated_at": "2023-10-01T03:04:17.463Z"
+      },
+      {
+        "id": "a7b79ad0-da1a-445d-b08e-6b5ad324c9d1",
+        "created_at": "2023-09-30T21:10:44.965Z",
+        "updated_at": "2023-10-01T04:06:30.993Z"
+      },
+      {
+        "id": "db25ce69-d671-4a9d-b237-009c6429fa2a",
+        "created_at": "2023-09-30T15:36:06.621Z",
+        "updated_at": "2023-10-01T06:19:51.981Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "305aeb4b-9caf-4bec-a39c-afdf5aa16fdf",
+        "created_at": "2023-09-30T16:06:10.729Z",
+        "updated_at": "2023-10-01T11:28:02.393Z"
+      },
+      {
+        "id": "60f0cfa7-73c5-472f-9616-d20438275de1",
+        "created_at": "2023-10-01T04:34:57.275Z",
+        "updated_at": "2023-09-30T17:02:50.041Z"
+      },
+      {
+        "id": "e968b4ca-9088-4424-9be4-e4c1515a49e3",
+        "created_at": "2023-09-30T16:43:44.831Z",
+        "updated_at": "2023-09-30T19:28:22.499Z"
+      },
+      {
+        "id": "69b724dc-7d87-46ce-9761-194f695a8dad",
+        "created_at": "2023-09-30T21:24:06.665Z",
+        "updated_at": "2023-09-30T16:26:44.228Z"
+      },
+      {
+        "id": "110698c7-0282-4aa5-8316-87db38a502d7",
+        "created_at": "2023-10-01T06:00:14.749Z",
+        "updated_at": "2023-10-01T02:13:50.409Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "52a39978-7c9c-4e44-a37e-377964f67592",
+        "shift_start": "2023-09-30T19:14:35.126Z",
+        "shift_end": "2023-10-01T08:59:12.158Z",
+        "created_at": "2023-09-30T20:29:48.820Z",
+        "updated_at": "2023-10-01T04:17:24.277Z",
+        "location_id": "7ecc9c62-93dc-4a21-a1f4-bb47a0e09691",
+        "service_id": "12a58000-caba-4590-9975-0d03e1d18bdc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68c8f5a7-157b-43ce-a4e2-655f9f9e2465",
+        "shift_start": "2023-10-01T07:47:12.170Z",
+        "shift_end": "2023-09-30T16:54:25.958Z",
+        "created_at": "2023-10-01T13:20:33.714Z",
+        "updated_at": "2023-10-01T06:29:54.341Z",
+        "location_id": "560a29c9-a4a6-4fd8-9cf4-c3c839433cf7",
+        "service_id": "6088a1eb-1ded-4e33-af4c-3a88e40fb04c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3dda9381-853f-4fa0-a95a-e8d7da736f13",
+        "shift_start": "2023-10-01T11:51:39.703Z",
+        "shift_end": "2023-10-01T04:38:13.215Z",
+        "created_at": "2023-09-30T17:19:12.821Z",
+        "updated_at": "2023-09-30T17:24:41.350Z",
+        "location_id": "0530c2d9-c4e9-45ab-b3db-70fa1d17aea4",
+        "service_id": "77dc3bc4-acfe-4df7-901c-f0a4ac815c7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1fdd3d3-64ed-4e18-9758-0059404e0a26",
+        "shift_start": "2023-09-30T20:47:08.144Z",
+        "shift_end": "2023-10-01T08:45:30.851Z",
+        "created_at": "2023-10-01T07:50:43.943Z",
+        "updated_at": "2023-10-01T08:25:59.600Z",
+        "location_id": "c0fd0744-b2eb-48bf-b39c-c2187bbcc5ea",
+        "service_id": "6088a1eb-1ded-4e33-af4c-3a88e40fb04c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd3c9425-c45a-400a-9f1d-21bf5afffdcb",
+        "shift_start": "2023-10-01T12:52:17.024Z",
+        "shift_end": "2023-10-01T12:45:17.784Z",
+        "created_at": "2023-10-01T08:08:32.288Z",
+        "updated_at": "2023-10-01T14:27:16.901Z",
+        "location_id": "c0fd0744-b2eb-48bf-b39c-c2187bbcc5ea",
+        "service_id": "bf4a7cb1-3f3f-4d89-8980-ceb5b1ac2b24",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "d8570b66-7afe-47bf-8f9d-ab08498a6b00",
+        "appointment_time": "2023-09-30T17:27:33.371Z",
+        "created_at": "2023-10-01T11:32:50.847Z",
+        "updated_at": "2023-10-01T10:24:35.577Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "3dda9381-853f-4fa0-a95a-e8d7da736f13",
+        "location_id": "034bc4fc-4bf1-4cd1-8d4b-0186e0bd0400",
+        "service_id": "3f30226c-92f5-4abf-9c92-a2c6c70e7de3"
+      },
+      {
+        "id": "8e790661-c5cb-477c-8036-d7558ab7e2b9",
+        "appointment_time": "2023-09-30T15:05:13.723Z",
+        "created_at": "2023-10-01T04:29:27.445Z",
+        "updated_at": "2023-10-01T02:38:26.324Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "fd3c9425-c45a-400a-9f1d-21bf5afffdcb",
+        "location_id": "0530c2d9-c4e9-45ab-b3db-70fa1d17aea4",
+        "service_id": "12a58000-caba-4590-9975-0d03e1d18bdc"
+      },
+      {
+        "id": "10f698fa-fc91-4d68-acc1-ebdb2538449e",
+        "appointment_time": "2023-09-30T16:14:39.231Z",
+        "created_at": "2023-10-01T08:12:08.510Z",
+        "updated_at": "2023-09-30T17:24:40.750Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "a1fdd3d3-64ed-4e18-9758-0059404e0a26",
+        "location_id": "0530c2d9-c4e9-45ab-b3db-70fa1d17aea4",
+        "service_id": "3f30226c-92f5-4abf-9c92-a2c6c70e7de3"
+      },
+      {
+        "id": "ff0f2d90-157a-4a93-81a9-ba17a07950b7",
+        "appointment_time": "2023-10-01T00:09:58.472Z",
+        "created_at": "2023-09-30T22:15:56.622Z",
+        "updated_at": "2023-10-01T06:51:04.814Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "fd3c9425-c45a-400a-9f1d-21bf5afffdcb",
+        "location_id": "7ecc9c62-93dc-4a21-a1f4-bb47a0e09691",
+        "service_id": "bf4a7cb1-3f3f-4d89-8980-ceb5b1ac2b24"
+      },
+      {
+        "id": "92bda36d-9ee9-4b69-aadf-ff4268542d70",
+        "appointment_time": "2023-10-01T13:21:51.007Z",
+        "created_at": "2023-09-30T23:40:27.899Z",
+        "updated_at": "2023-10-01T10:11:01.801Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "fd3c9425-c45a-400a-9f1d-21bf5afffdcb",
+        "location_id": "7ecc9c62-93dc-4a21-a1f4-bb47a0e09691",
+        "service_id": "12a58000-caba-4590-9975-0d03e1d18bdc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e8102c25-ac26-4733-a90d-dffc3a197da0",
+        "email": "Hassan89@roq.tech",
+        "firstName": "Bertram",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34442157",
+        "tenantId": null
+      },
+      {
+        "reference": "0b19675f-9899-4c08-85ba-8e14ea328791",
+        "email": "Bobbie.Senger39@roq.tech",
+        "firstName": "Ebony",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f63847c6-9bfb-498a-a3b5-692562de6336",
+        "email": "Lavinia.Batz@roq.tech",
+        "firstName": "Sadie",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/924.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b64f12e-d935-462b-8e49-18532ae4439b",
+        "email": "Armand.Schumm99@roq.tech",
+        "firstName": "Steve",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/845.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "54b5902b-5ba8-4fe3-a6bb-a75e3bb663d0",
+        "email": "Aniyah60@roq.tech",
+        "firstName": "Amely",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90368028",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "f8c63c77-b254-47db-9357-f076066dd918",
+        "created_at": "2023-10-01T09:47:27.329Z",
+        "updated_at": "2023-09-30T22:49:28.819Z"
+      },
+      {
+        "id": "114b3e26-c23d-4de4-a1da-0985857f8682",
+        "created_at": "2023-10-01T09:41:41.572Z",
+        "updated_at": "2023-10-01T06:52:43.167Z"
+      },
+      {
+        "id": "d598c916-cd60-457b-9699-39881b106f70",
+        "created_at": "2023-10-01T07:29:08.822Z",
+        "updated_at": "2023-10-01T00:28:59.190Z"
+      },
+      {
+        "id": "3f875526-9ff5-4499-b201-3a4414b454e3",
+        "created_at": "2023-10-01T08:56:02.831Z",
+        "updated_at": "2023-09-30T21:11:44.357Z"
+      },
+      {
+        "id": "60d292ff-23b9-4579-b196-384e8aa80485",
+        "created_at": "2023-09-30T21:31:34.933Z",
+        "updated_at": "2023-10-01T12:02:21.382Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "17307079-0067-4ac5-a1f9-580dc75ed4a2",
+        "name": "Web Development",
+        "description": "Custom website development",
+        "duration": 42783,
+        "price": 10469,
+        "created_at": "2023-09-30T23:07:29.684Z",
+        "updated_at": "2023-10-01T00:20:21.325Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2c8fb545-ffb8-43df-bbe7-f2801e7abadc",
+        "name": "Graphic Design",
+        "description": "Creative logo design",
+        "duration": 11325,
+        "price": 48291,
+        "created_at": "2023-10-01T02:45:48.258Z",
+        "updated_at": "2023-09-30T17:32:53.843Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1e3cbe3b-1c42-4ccd-a8b6-a38cafa23334",
+        "name": "Marketing Consulting",
+        "description": "Strategic marketing planning",
+        "duration": 14617,
+        "price": 48223,
+        "created_at": "2023-09-30T21:16:53.371Z",
+        "updated_at": "2023-10-01T13:42:46.108Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0cd2128c-af6b-4b87-8977-21825102a919",
+        "name": "IT Support",
+        "description": "24/7 technical support",
+        "duration": 28307,
+        "price": 61178,
+        "created_at": "2023-10-01T04:15:21.683Z",
+        "updated_at": "2023-10-01T07:43:16.695Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f83b3bcc-47a4-4dd3-9510-a52d9575d814",
+        "name": "Accounting Services",
+        "description": "Bookkeeping and tax preparation",
+        "duration": 65865,
+        "price": 72498,
+        "created_at": "2023-10-01T08:16:48.836Z",
+        "updated_at": "2023-10-01T07:48:43.361Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "37aa4960-d7de-4357-a442-3984e85d5089",
+        "name": "Headquarters",
+        "address": "789 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-10-01T03:40:04.255Z",
+        "updated_at": "2023-10-01T06:33:30.560Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6803483f-b5e4-44b9-8383-bfaee9b4e440",
+        "name": "Branch Office",
+        "address": "456 Elm St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-10-01T13:52:13.068Z",
+        "updated_at": "2023-09-30T17:26:38.935Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "78488676-fdaf-4f9d-ab33-dfb9760ecddb",
+        "name": "Storefront",
+        "address": "123 Oak St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-10-01T06:13:09.419Z",
+        "updated_at": "2023-10-01T05:48:25.010Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "13ee5820-a4ce-4e1b-8551-4485b5892f0d",
+        "name": "Warehouse",
+        "address": "321 Maple St",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-09-30T17:28:59.685Z",
+        "updated_at": "2023-10-01T05:35:04.792Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "770ee014-fef0-44dc-b54c-6bedfa9c8e62",
+        "name": "Data Center",
+        "address": "654 Pine St",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-10-01T12:26:39.980Z",
+        "updated_at": "2023-09-30T17:48:53.026Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "6f00a22f-ddc1-414e-a2f9-3b834d3a3466",
+        "created_at": "2023-10-01T13:05:22.505Z",
+        "updated_at": "2023-10-01T06:21:49.532Z"
+      },
+      {
+        "id": "167de91a-34ee-41ca-9646-8eddfdefd353",
+        "created_at": "2023-10-01T09:42:14.278Z",
+        "updated_at": "2023-10-01T09:44:49.105Z"
+      },
+      {
+        "id": "b5475aff-ff52-48b3-afc9-e009beb4f2a3",
+        "created_at": "2023-09-30T17:15:31.676Z",
+        "updated_at": "2023-09-30T22:12:50.440Z"
+      },
+      {
+        "id": "50ad08c0-7ab9-475e-8016-affb8f99ecae",
+        "created_at": "2023-10-01T04:43:31.469Z",
+        "updated_at": "2023-09-30T18:43:37.868Z"
+      },
+      {
+        "id": "88ce4864-d56f-46ab-ad11-2510602c366c",
+        "created_at": "2023-09-30T20:14:39.621Z",
+        "updated_at": "2023-09-30T21:17:25.404Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "9df6c159-5153-43c1-9feb-cb88bedf7027",
+        "created_at": "2023-10-01T01:08:02.043Z",
+        "updated_at": "2023-09-30T23:40:33.056Z"
+      },
+      {
+        "id": "1ab1f425-e31e-415f-938c-9789c8f09841",
+        "created_at": "2023-10-01T00:48:03.793Z",
+        "updated_at": "2023-09-30T22:09:08.246Z"
+      },
+      {
+        "id": "bea969aa-20c9-4aa4-bfa9-24789ddccf4c",
+        "created_at": "2023-09-30T17:45:23.715Z",
+        "updated_at": "2023-10-01T12:08:08.117Z"
+      },
+      {
+        "id": "34423da7-ef4d-4f87-8902-509147f78d1d",
+        "created_at": "2023-09-30T23:58:05.909Z",
+        "updated_at": "2023-09-30T21:56:50.992Z"
+      },
+      {
+        "id": "4da28fb8-d836-4fad-b748-7f88bc9710bd",
+        "created_at": "2023-10-01T09:55:24.622Z",
+        "updated_at": "2023-10-01T07:27:57.656Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "0c6962f3-70c8-4228-988b-6ed4a40e0b55",
+        "shift_start": "2023-10-01T06:13:20.538Z",
+        "shift_end": "2023-10-01T11:25:43.756Z",
+        "created_at": "2023-09-30T21:19:14.956Z",
+        "updated_at": "2023-09-30T16:04:55.105Z",
+        "location_id": "6803483f-b5e4-44b9-8383-bfaee9b4e440",
+        "service_id": "f83b3bcc-47a4-4dd3-9510-a52d9575d814",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96593ba2-d0db-4663-bec5-c7b0005efda6",
+        "shift_start": "2023-10-01T07:29:47.465Z",
+        "shift_end": "2023-09-30T16:49:20.940Z",
+        "created_at": "2023-10-01T13:00:54.713Z",
+        "updated_at": "2023-10-01T10:04:17.941Z",
+        "location_id": "6803483f-b5e4-44b9-8383-bfaee9b4e440",
+        "service_id": "2c8fb545-ffb8-43df-bbe7-f2801e7abadc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eac5e477-d4ea-49f7-91b0-e7a65697d5b4",
+        "shift_start": "2023-10-01T13:09:57.552Z",
+        "shift_end": "2023-10-01T05:33:33.418Z",
+        "created_at": "2023-10-01T02:58:12.197Z",
+        "updated_at": "2023-10-01T05:37:33.921Z",
+        "location_id": "78488676-fdaf-4f9d-ab33-dfb9760ecddb",
+        "service_id": "f83b3bcc-47a4-4dd3-9510-a52d9575d814",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70c946f3-619b-4d35-aef9-3479443f0223",
+        "shift_start": "2023-10-01T09:49:50.482Z",
+        "shift_end": "2023-10-01T03:55:29.398Z",
+        "created_at": "2023-10-01T02:55:16.598Z",
+        "updated_at": "2023-10-01T14:52:13.483Z",
+        "location_id": "770ee014-fef0-44dc-b54c-6bedfa9c8e62",
+        "service_id": "0cd2128c-af6b-4b87-8977-21825102a919",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15d9dedd-f8d7-48dc-a036-e16cfe9ff3c2",
+        "shift_start": "2023-10-01T14:18:36.987Z",
+        "shift_end": "2023-09-30T16:20:46.918Z",
+        "created_at": "2023-09-30T21:40:58.597Z",
+        "updated_at": "2023-10-01T01:26:09.299Z",
+        "location_id": "78488676-fdaf-4f9d-ab33-dfb9760ecddb",
+        "service_id": "17307079-0067-4ac5-a1f9-580dc75ed4a2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "0cdfde6f-7166-425b-99ed-f256afeac6da",
+        "appointment_time": "2023-10-01T01:21:49.434Z",
+        "created_at": "2023-10-01T14:55:28.534Z",
+        "updated_at": "2023-09-30T18:12:53.571Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "96593ba2-d0db-4663-bec5-c7b0005efda6",
+        "location_id": "78488676-fdaf-4f9d-ab33-dfb9760ecddb",
+        "service_id": "2c8fb545-ffb8-43df-bbe7-f2801e7abadc"
+      },
+      {
+        "id": "30c6061d-0537-4418-9f4b-a6354eea6b11",
+        "appointment_time": "2023-10-01T01:49:10.480Z",
+        "created_at": "2023-09-30T16:54:53.327Z",
+        "updated_at": "2023-09-30T15:05:52.121Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "eac5e477-d4ea-49f7-91b0-e7a65697d5b4",
+        "location_id": "78488676-fdaf-4f9d-ab33-dfb9760ecddb",
+        "service_id": "0cd2128c-af6b-4b87-8977-21825102a919"
+      },
+      {
+        "id": "6076e12c-36e6-4d83-bf06-105160af8361",
+        "appointment_time": "2023-10-01T03:52:12.201Z",
+        "created_at": "2023-10-01T12:07:25.369Z",
+        "updated_at": "2023-10-01T14:14:51.923Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "eac5e477-d4ea-49f7-91b0-e7a65697d5b4",
+        "location_id": "13ee5820-a4ce-4e1b-8551-4485b5892f0d",
+        "service_id": "17307079-0067-4ac5-a1f9-580dc75ed4a2"
+      },
+      {
+        "id": "32c9f20e-d21a-47d3-9c64-2973b8abc27c",
+        "appointment_time": "2023-10-01T00:28:08.621Z",
+        "created_at": "2023-09-30T18:27:36.639Z",
+        "updated_at": "2023-09-30T16:05:10.968Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "eac5e477-d4ea-49f7-91b0-e7a65697d5b4",
+        "location_id": "770ee014-fef0-44dc-b54c-6bedfa9c8e62",
+        "service_id": "1e3cbe3b-1c42-4ccd-a8b6-a38cafa23334"
+      },
+      {
+        "id": "faacd9ea-8523-4e4b-89e0-4cc4ef8b6176",
+        "appointment_time": "2023-09-30T23:09:22.222Z",
+        "created_at": "2023-09-30T22:43:51.155Z",
+        "updated_at": "2023-09-30T16:25:19.050Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "70c946f3-619b-4d35-aef9-3479443f0223",
+        "location_id": "37aa4960-d7de-4357-a442-3984e85d5089",
+        "service_id": "2c8fb545-ffb8-43df-bbe7-f2801e7abadc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "548c20bc-6b0f-428e-be42-e331769da5f3",
+        "email": "Vada.Kulas@roq.tech",
+        "firstName": "Louisa",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c9598ed-f7ac-4f51-805c-1661596670e3",
+        "email": "Newton_Beier4@roq.tech",
+        "firstName": "Laurianne",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92054099",
+        "tenantId": null
+      },
+      {
+        "reference": "1f3a07a9-7a0f-4e8f-8bf6-6a844ddd5e69",
+        "email": "Alene78@roq.tech",
+        "firstName": "Jermaine",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2476e8ac-7156-4608-a5e4-4ec43f7189e5",
+        "email": "Meagan.Lemke@roq.tech",
+        "firstName": "Eileen",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/595.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c38a2f92-35d6-42e6-be41-695dbc09787b",
+        "email": "Kasandra70@roq.tech",
+        "firstName": "Ottis",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64667346",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "c123de63-9cb5-4d67-8a83-8d7e1417a31c",
+        "created_at": "2023-10-01T01:26:33.980Z",
+        "updated_at": "2023-09-30T21:05:43.539Z"
+      },
+      {
+        "id": "0e458720-c09b-4d30-989b-6a171e6899b7",
+        "created_at": "2023-10-01T01:03:01.580Z",
+        "updated_at": "2023-09-30T23:12:48.400Z"
+      },
+      {
+        "id": "b912ad42-d38f-411e-9ab5-f66da2357c51",
+        "created_at": "2023-10-01T12:00:14.226Z",
+        "updated_at": "2023-10-01T00:53:59.621Z"
+      },
+      {
+        "id": "abc00123-6c77-4732-a813-e952d3d4c663",
+        "created_at": "2023-09-30T15:12:05.541Z",
+        "updated_at": "2023-10-01T11:52:30.931Z"
+      },
+      {
+        "id": "1796015c-9178-4273-a4c6-e88ba7c76e6c",
+        "created_at": "2023-09-30T20:42:49.029Z",
+        "updated_at": "2023-10-01T00:03:05.643Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "288cc273-e1eb-434c-b5a1-d29889af0c4c",
+        "name": "Web Development",
+        "description": "Custom website development",
+        "duration": 68177,
+        "price": 11926,
+        "created_at": "2023-10-01T05:27:37.013Z",
+        "updated_at": "2023-09-30T17:57:54.801Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ddc37326-80c7-4dd4-ae07-0b12fd0a57ce",
+        "name": "Graphic Design",
+        "description": "Creative design solutions",
+        "duration": 1294,
+        "price": 715,
+        "created_at": "2023-10-01T07:06:14.458Z",
+        "updated_at": "2023-10-01T03:29:51.059Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "420f2445-72d1-4efc-b68a-4c13901e307b",
+        "name": "Marketing Strategy",
+        "description": "Strategic marketing campaigns",
+        "duration": 40791,
+        "price": 68345,
+        "created_at": "2023-10-01T00:30:30.420Z",
+        "updated_at": "2023-09-30T23:53:29.270Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "434161ff-1c59-4a6d-8ae6-f268b20c1d62",
+        "name": "IT Consulting",
+        "description": "Technology advisory services",
+        "duration": 25918,
+        "price": 69880,
+        "created_at": "2023-10-01T03:10:53.105Z",
+        "updated_at": "2023-10-01T07:51:02.690Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "54ac045d-2fc8-439e-a9ff-fa285045dacd",
+        "name": "Financial Planning",
+        "description": "Personalized financial advice",
+        "duration": 78611,
+        "price": 60873,
+        "created_at": "2023-10-01T11:54:40.755Z",
+        "updated_at": "2023-10-01T08:37:43.881Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "5f705e58-1383-4b5c-8ec8-435ed36bada2",
+        "name": "Main Office",
+        "address": "789 Elm St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-10-01T14:32:55.352Z",
+        "updated_at": "2023-10-01T07:38:52.767Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "93bb3f50-0ac3-43b3-be51-0cb4ec01b8f8",
+        "name": "Branch Office",
+        "address": "123 Oak St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-10-01T14:40:50.044Z",
+        "updated_at": "2023-09-30T15:33:06.257Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "15c92c9a-49a7-400d-a6d9-282f3144dd62",
+        "name": "Headquarters",
+        "address": "456 Pine St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80202",
+        "created_at": "2023-10-01T11:36:34.114Z",
+        "updated_at": "2023-10-01T06:51:12.275Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "761d9829-369f-4712-966c-711c51ab21bf",
+        "name": "Storefront",
+        "address": "321 Maple St",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-10-01T01:25:23.847Z",
+        "updated_at": "2023-09-30T23:42:12.531Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "26689a61-663f-434c-abea-b615b0e677ef",
+        "name": "Facility",
+        "address": "654 Oak St",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-10-01T12:58:22.049Z",
+        "updated_at": "2023-09-30T15:04:52.063Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "df59aa14-2168-43b3-aaa0-214c84a2d131",
+        "created_at": "2023-10-01T04:55:31.754Z",
+        "updated_at": "2023-09-30T22:16:37.074Z"
+      },
+      {
+        "id": "fd00b809-f3f0-44ab-844e-48b634bc3a04",
+        "created_at": "2023-09-30T15:53:13.543Z",
+        "updated_at": "2023-10-01T13:50:44.052Z"
+      },
+      {
+        "id": "107b2ec7-bac7-4582-b35d-a99e63a368f8",
+        "created_at": "2023-10-01T02:06:09.788Z",
+        "updated_at": "2023-10-01T09:14:37.434Z"
+      },
+      {
+        "id": "47a98ab2-d932-43d6-8da5-f81b80b905a6",
+        "created_at": "2023-10-01T01:01:09.365Z",
+        "updated_at": "2023-10-01T00:18:34.646Z"
+      },
+      {
+        "id": "1e98cc7f-e49e-41ff-bf9d-ffa6b6b735e0",
+        "created_at": "2023-10-01T01:57:29.228Z",
+        "updated_at": "2023-10-01T10:39:14.856Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "0c93cc90-6e5b-4565-a613-02e734d54a78",
+        "created_at": "2023-10-01T07:38:37.945Z",
+        "updated_at": "2023-10-01T14:06:20.412Z"
+      },
+      {
+        "id": "136f3c42-616f-4d2a-a6bc-98ae80b17745",
+        "created_at": "2023-09-30T19:37:08.181Z",
+        "updated_at": "2023-10-01T08:40:02.209Z"
+      },
+      {
+        "id": "61925b8b-0e45-4750-b1e7-d59fb0c6bd94",
+        "created_at": "2023-10-01T14:56:04.604Z",
+        "updated_at": "2023-10-01T04:17:09.872Z"
+      },
+      {
+        "id": "a210c72c-1952-44f4-bedf-82a794b2afd8",
+        "created_at": "2023-10-01T05:10:17.760Z",
+        "updated_at": "2023-10-01T00:48:00.898Z"
+      },
+      {
+        "id": "13d73166-5433-479b-8b6d-1c91bf6973a9",
+        "created_at": "2023-09-30T18:48:26.861Z",
+        "updated_at": "2023-10-01T03:17:05.259Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "06b427a4-2914-4a49-8de1-719285b29755",
+        "shift_start": "2023-10-01T10:22:09.859Z",
+        "shift_end": "2023-09-30T20:01:32.335Z",
+        "created_at": "2023-09-30T22:09:21.818Z",
+        "updated_at": "2023-10-01T05:21:38.510Z",
+        "location_id": "5f705e58-1383-4b5c-8ec8-435ed36bada2",
+        "service_id": "ddc37326-80c7-4dd4-ae07-0b12fd0a57ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6b60123-828d-4812-b659-feb2b599424f",
+        "shift_start": "2023-09-30T17:26:57.088Z",
+        "shift_end": "2023-10-01T10:06:29.456Z",
+        "created_at": "2023-10-01T04:03:19.246Z",
+        "updated_at": "2023-09-30T18:03:47.429Z",
+        "location_id": "93bb3f50-0ac3-43b3-be51-0cb4ec01b8f8",
+        "service_id": "288cc273-e1eb-434c-b5a1-d29889af0c4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e596fea-28eb-4981-976f-80d1b57cb0ef",
+        "shift_start": "2023-10-01T00:43:19.775Z",
+        "shift_end": "2023-09-30T22:42:51.760Z",
+        "created_at": "2023-10-01T00:45:54.052Z",
+        "updated_at": "2023-09-30T15:15:20.785Z",
+        "location_id": "761d9829-369f-4712-966c-711c51ab21bf",
+        "service_id": "434161ff-1c59-4a6d-8ae6-f268b20c1d62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63d3f4a6-d07c-4f45-928b-809479a9a79f",
+        "shift_start": "2023-10-01T14:46:25.562Z",
+        "shift_end": "2023-09-30T18:08:50.238Z",
+        "created_at": "2023-10-01T00:53:54.158Z",
+        "updated_at": "2023-10-01T00:33:29.160Z",
+        "location_id": "15c92c9a-49a7-400d-a6d9-282f3144dd62",
+        "service_id": "288cc273-e1eb-434c-b5a1-d29889af0c4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa442c6d-aed2-43b7-b5da-9b479a51f9c8",
+        "shift_start": "2023-10-01T13:46:25.717Z",
+        "shift_end": "2023-10-01T13:11:02.266Z",
+        "created_at": "2023-10-01T08:37:45.623Z",
+        "updated_at": "2023-10-01T02:05:19.702Z",
+        "location_id": "5f705e58-1383-4b5c-8ec8-435ed36bada2",
+        "service_id": "434161ff-1c59-4a6d-8ae6-f268b20c1d62",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "ed182450-018f-4754-b243-60e2a72452f1",
+        "appointment_time": "2023-10-01T11:07:12.909Z",
+        "created_at": "2023-10-01T14:31:58.992Z",
+        "updated_at": "2023-10-01T12:54:28.909Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "06b427a4-2914-4a49-8de1-719285b29755",
+        "location_id": "26689a61-663f-434c-abea-b615b0e677ef",
+        "service_id": "434161ff-1c59-4a6d-8ae6-f268b20c1d62"
+      },
+      {
+        "id": "af8c9c8f-89d5-40f6-96be-c6098b7ed65d",
+        "appointment_time": "2023-09-30T21:47:45.335Z",
+        "created_at": "2023-10-01T00:33:06.186Z",
+        "updated_at": "2023-09-30T15:52:03.422Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "aa442c6d-aed2-43b7-b5da-9b479a51f9c8",
+        "location_id": "761d9829-369f-4712-966c-711c51ab21bf",
+        "service_id": "ddc37326-80c7-4dd4-ae07-0b12fd0a57ce"
+      },
+      {
+        "id": "77661a50-d884-41ea-b2f2-8a5772c3a7bf",
+        "appointment_time": "2023-10-01T10:15:24.457Z",
+        "created_at": "2023-10-01T06:34:56.886Z",
+        "updated_at": "2023-10-01T12:11:33.273Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "06b427a4-2914-4a49-8de1-719285b29755",
+        "location_id": "761d9829-369f-4712-966c-711c51ab21bf",
+        "service_id": "420f2445-72d1-4efc-b68a-4c13901e307b"
+      },
+      {
+        "id": "8f5355cb-5066-48c2-917c-e7a924ab195c",
+        "appointment_time": "2023-10-01T07:44:19.238Z",
+        "created_at": "2023-10-01T13:20:23.462Z",
+        "updated_at": "2023-09-30T15:46:08.288Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "63d3f4a6-d07c-4f45-928b-809479a9a79f",
+        "location_id": "93bb3f50-0ac3-43b3-be51-0cb4ec01b8f8",
+        "service_id": "288cc273-e1eb-434c-b5a1-d29889af0c4c"
+      },
+      {
+        "id": "4400bc2f-da8d-4133-ad7f-fd5f43c2d6a1",
+        "appointment_time": "2023-10-01T12:03:56.388Z",
+        "created_at": "2023-10-01T09:03:33.803Z",
+        "updated_at": "2023-09-30T18:48:16.303Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "aa442c6d-aed2-43b7-b5da-9b479a51f9c8",
+        "location_id": "93bb3f50-0ac3-43b3-be51-0cb4ec01b8f8",
+        "service_id": "ddc37326-80c7-4dd4-ae07-0b12fd0a57ce"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "355abbde-2957-4253-aa83-e6105cf5dc6b",
+        "email": "Ulices93@roq.tech",
+        "firstName": "Ora",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24532640",
+        "tenantId": null
+      },
+      {
+        "reference": "42090c86-8d66-4d3c-a7ab-2510132679e3",
+        "email": "Braxton33@roq.tech",
+        "firstName": "Geoffrey",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92740101",
+        "tenantId": null
+      },
+      {
+        "reference": "4ebdf652-8bbf-4597-a687-f679beb1fb3a",
+        "email": "Vivien.McCullough80@roq.tech",
+        "firstName": "Aiden",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59959839",
+        "tenantId": null
+      },
+      {
+        "reference": "aba839a8-e19a-4ca5-80fa-ee36e63bc09f",
+        "email": "Melvin.Rohan17@roq.tech",
+        "firstName": "Mallie",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b57eb72b-0c7f-4c8b-9e94-268fb5ba5867",
+        "email": "Shanie.Smitham@roq.tech",
+        "firstName": "Mafalda",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55058670",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "46ba65d9-edc9-429a-9b0a-7ff0f73968d6",
+        "created_at": "2023-10-01T03:42:28.885Z",
+        "updated_at": "2023-10-01T04:41:25.740Z"
+      },
+      {
+        "id": "0c9ceb39-3fc6-453e-9c3d-1c0bd7d1f3bf",
+        "created_at": "2023-10-01T14:18:06.424Z",
+        "updated_at": "2023-09-30T22:07:40.027Z"
+      },
+      {
+        "id": "27954f27-49a2-4757-9ca3-da6f1234db8a",
+        "created_at": "2023-09-30T19:37:41.635Z",
+        "updated_at": "2023-09-30T22:56:26.439Z"
+      },
+      {
+        "id": "627dfb04-9287-4b9d-aa9c-bc71491b2976",
+        "created_at": "2023-09-30T21:46:59.100Z",
+        "updated_at": "2023-09-30T16:08:34.779Z"
+      },
+      {
+        "id": "f066a559-23ef-4ddf-a4ee-5d0275a0bc68",
+        "created_at": "2023-10-01T11:41:42.570Z",
+        "updated_at": "2023-09-30T23:43:44.962Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "76d0df07-719c-4b8d-b910-5afd4a9a9bb7",
+        "name": "Web Design",
+        "description": "We create stunning websites tailored to your business needs",
+        "duration": 25579,
+        "price": 30163,
+        "created_at": "2023-10-01T11:25:42.332Z",
+        "updated_at": "2023-09-30T22:57:45.116Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb0d4a14-1f71-4814-b3af-ca8f735b9a73",
+        "name": "Mobile App Development",
+        "description": "Build innovative mobile apps for iOS and Android platforms",
+        "duration": 49760,
+        "price": 92208,
+        "created_at": "2023-10-01T00:05:11.874Z",
+        "updated_at": "2023-10-01T14:40:27.353Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf978979-2861-4cb6-8e65-27874757439d",
+        "name": "Digital Marketing",
+        "description": "Help businesses grow their online presence through effective marketing strategies",
+        "duration": 76064,
+        "price": 90412,
+        "created_at": "2023-10-01T06:19:37.659Z",
+        "updated_at": "2023-09-30T16:12:50.029Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5277c504-0b5b-4458-8a89-070efc20e7e0",
+        "name": "Cloud Computing",
+        "description": "Provide scalable and secure cloud solutions for businesses of all sizes",
+        "duration": 40544,
+        "price": 8566,
+        "created_at": "2023-09-30T23:14:16.915Z",
+        "updated_at": "2023-10-01T06:41:34.236Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5f0745b6-d47d-45ad-9fac-2578ac3753eb",
+        "name": "Data Analysis",
+        "description": "Extract valuable insights from data to drive informed decision-making",
+        "duration": 89013,
+        "price": 34134,
+        "created_at": "2023-10-01T02:25:40.564Z",
+        "updated_at": "2023-09-30T18:27:04.587Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "50ca029d-80a1-473a-9003-cf321ccad07d",
+        "name": "Central Park",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-30T22:01:21.091Z",
+        "updated_at": "2023-09-30T17:47:54.521Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "05e23487-a6c6-472d-a5ca-488ff9658686",
+        "name": "Golden Gate Bridge",
+        "address": "456 Elm St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94102",
+        "created_at": "2023-09-30T18:04:59.174Z",
+        "updated_at": "2023-09-30T18:12:53.608Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "365f640a-1a08-4f05-a7e4-d79d8e9e34dd",
+        "name": "Willis Tower",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-10-01T10:00:40.028Z",
+        "updated_at": "2023-09-30T17:55:22.938Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1d1eeed3-cf86-4dfd-8ca7-5bd8751a9f0d",
+        "name": "Space Needle",
+        "address": "321 Pine St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-10-01T13:13:37.194Z",
+        "updated_at": "2023-10-01T00:30:50.010Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2f31d041-9ad9-4fba-a5cb-95c18ea0ca8c",
+        "name": "Grand Canyon",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-10-01T12:25:05.120Z",
+        "updated_at": "2023-09-30T20:58:27.119Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "134ff463-d250-4a67-b055-2dac53966875",
+        "created_at": "2023-10-01T07:04:59.336Z",
+        "updated_at": "2023-10-01T11:17:28.326Z"
+      },
+      {
+        "id": "22099997-1647-4113-aa5a-4645c04e2eb3",
+        "created_at": "2023-10-01T14:44:11.804Z",
+        "updated_at": "2023-10-01T13:03:54.076Z"
+      },
+      {
+        "id": "2c9827fb-7658-4ede-9aad-b7b067d303f5",
+        "created_at": "2023-10-01T02:02:39.090Z",
+        "updated_at": "2023-10-01T07:52:08.435Z"
+      },
+      {
+        "id": "34e0f37f-f215-41e2-9a61-471a7f50ac6a",
+        "created_at": "2023-10-01T03:02:40.344Z",
+        "updated_at": "2023-10-01T02:45:39.124Z"
+      },
+      {
+        "id": "d4bcc0b6-3723-4d0f-a929-5934bc3c27b3",
+        "created_at": "2023-10-01T13:40:03.865Z",
+        "updated_at": "2023-10-01T01:07:38.665Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "1630f876-c1d5-43f1-894e-4feeaffc8585",
+        "created_at": "2023-09-30T20:01:57.044Z",
+        "updated_at": "2023-09-30T20:42:58.122Z"
+      },
+      {
+        "id": "8b52422a-991a-49d3-813c-7e0f3be6a32a",
+        "created_at": "2023-10-01T06:47:19.658Z",
+        "updated_at": "2023-10-01T11:20:20.217Z"
+      },
+      {
+        "id": "212ca1a9-f60a-42f6-b087-6a3e223dc1bd",
+        "created_at": "2023-09-30T17:50:48.474Z",
+        "updated_at": "2023-09-30T18:38:57.360Z"
+      },
+      {
+        "id": "be22ab0e-0e61-47b7-871d-f573a3e2eb86",
+        "created_at": "2023-10-01T01:53:56.369Z",
+        "updated_at": "2023-09-30T15:49:33.526Z"
+      },
+      {
+        "id": "80caa7e0-67be-458b-943c-0a58fd91459c",
+        "created_at": "2023-10-01T07:07:36.290Z",
+        "updated_at": "2023-10-01T11:30:05.015Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "5cba86cb-022c-42c3-86c5-0ddf9f9cfc1d",
+        "shift_start": "2023-10-01T03:57:51.162Z",
+        "shift_end": "2023-10-01T06:19:52.171Z",
+        "created_at": "2023-09-30T22:55:33.986Z",
+        "updated_at": "2023-09-30T19:00:04.826Z",
+        "location_id": "05e23487-a6c6-472d-a5ca-488ff9658686",
+        "service_id": "fb0d4a14-1f71-4814-b3af-ca8f735b9a73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32c778e8-f733-4126-8c9c-b67ade75972d",
+        "shift_start": "2023-10-01T05:48:46.035Z",
+        "shift_end": "2023-09-30T18:52:31.425Z",
+        "created_at": "2023-10-01T01:54:40.590Z",
+        "updated_at": "2023-09-30T20:21:31.188Z",
+        "location_id": "50ca029d-80a1-473a-9003-cf321ccad07d",
+        "service_id": "fb0d4a14-1f71-4814-b3af-ca8f735b9a73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8269b82-aa29-4ce1-9c09-67e07e2a4ef3",
+        "shift_start": "2023-10-01T04:13:44.100Z",
+        "shift_end": "2023-10-01T13:42:30.561Z",
+        "created_at": "2023-09-30T17:45:52.761Z",
+        "updated_at": "2023-09-30T21:36:17.358Z",
+        "location_id": "2f31d041-9ad9-4fba-a5cb-95c18ea0ca8c",
+        "service_id": "bf978979-2861-4cb6-8e65-27874757439d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8694515a-2fdd-499c-940e-cd56f102ed5a",
+        "shift_start": "2023-09-30T20:22:59.690Z",
+        "shift_end": "2023-10-01T04:47:51.184Z",
+        "created_at": "2023-10-01T01:39:43.525Z",
+        "updated_at": "2023-10-01T08:22:55.076Z",
+        "location_id": "50ca029d-80a1-473a-9003-cf321ccad07d",
+        "service_id": "fb0d4a14-1f71-4814-b3af-ca8f735b9a73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afc4b17a-9404-48d1-bd82-514d4677f9ee",
+        "shift_start": "2023-09-30T21:00:50.379Z",
+        "shift_end": "2023-10-01T14:11:33.982Z",
+        "created_at": "2023-09-30T19:55:17.475Z",
+        "updated_at": "2023-10-01T04:32:08.800Z",
+        "location_id": "1d1eeed3-cf86-4dfd-8ca7-5bd8751a9f0d",
+        "service_id": "fb0d4a14-1f71-4814-b3af-ca8f735b9a73",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "fda4a13a-24aa-4bc6-b5a9-5a36beaaa044",
+        "appointment_time": "2023-10-01T02:56:41.485Z",
+        "created_at": "2023-10-01T05:36:33.626Z",
+        "updated_at": "2023-10-01T06:01:47.496Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "32c778e8-f733-4126-8c9c-b67ade75972d",
+        "location_id": "1d1eeed3-cf86-4dfd-8ca7-5bd8751a9f0d",
+        "service_id": "5f0745b6-d47d-45ad-9fac-2578ac3753eb"
+      },
+      {
+        "id": "db5b6ae8-ffdc-4e64-94fb-839b9f8fd7c4",
+        "appointment_time": "2023-10-01T10:33:28.477Z",
+        "created_at": "2023-10-01T13:22:57.151Z",
+        "updated_at": "2023-10-01T10:56:08.854Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "afc4b17a-9404-48d1-bd82-514d4677f9ee",
+        "location_id": "1d1eeed3-cf86-4dfd-8ca7-5bd8751a9f0d",
+        "service_id": "bf978979-2861-4cb6-8e65-27874757439d"
+      },
+      {
+        "id": "32763805-d4bb-477e-b746-2b1c0ffe186d",
+        "appointment_time": "2023-10-01T04:13:26.769Z",
+        "created_at": "2023-10-01T06:57:09.427Z",
+        "updated_at": "2023-09-30T19:49:20.985Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "32c778e8-f733-4126-8c9c-b67ade75972d",
+        "location_id": "2f31d041-9ad9-4fba-a5cb-95c18ea0ca8c",
+        "service_id": "76d0df07-719c-4b8d-b910-5afd4a9a9bb7"
+      },
+      {
+        "id": "3fe37428-520a-4469-90da-4e0b02f6b033",
+        "appointment_time": "2023-10-01T06:51:38.280Z",
+        "created_at": "2023-10-01T01:50:31.600Z",
+        "updated_at": "2023-09-30T15:08:03.139Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "c8269b82-aa29-4ce1-9c09-67e07e2a4ef3",
+        "location_id": "365f640a-1a08-4f05-a7e4-d79d8e9e34dd",
+        "service_id": "5277c504-0b5b-4458-8a89-070efc20e7e0"
+      },
+      {
+        "id": "8749b876-c4d0-4239-a08f-d561f6750820",
+        "appointment_time": "2023-10-01T04:12:30.854Z",
+        "created_at": "2023-09-30T16:41:57.833Z",
+        "updated_at": "2023-09-30T15:26:40.136Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "8694515a-2fdd-499c-940e-cd56f102ed5a",
+        "location_id": "50ca029d-80a1-473a-9003-cf321ccad07d",
+        "service_id": "76d0df07-719c-4b8d-b910-5afd4a9a9bb7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d17d8b4b-fd36-47fa-8acf-82997e6e7476",
+        "email": "Ana.Zieme@roq.tech",
+        "firstName": "Fredrick",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1025.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fdb67e80-3785-43a3-9b26-3a4f66690265",
+        "email": "Aliyah.Legros49@roq.tech",
+        "firstName": "Marshall",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/892.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5505426a-d3af-47a3-b84c-a3070df09343",
+        "email": "Winston.Zieme84@roq.tech",
+        "firstName": "Jevon",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/960.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d78236c2-1803-49b5-81dd-c444a58ffef0",
+        "email": "Treva79@roq.tech",
+        "firstName": "Korey",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/621.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ceb979c-c81f-4742-aa88-020aa5d5a2bd",
+        "email": "Sydnie.Bode@roq.tech",
+        "firstName": "Malika",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39253281",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_duration": [
+      {
+        "id": "08775e31-cd5a-4ec7-901d-bd22a005a5f9",
+        "created_at": "2023-10-01T02:57:42.633Z",
+        "updated_at": "2023-10-01T02:48:36.933Z"
+      },
+      {
+        "id": "851e1f37-bb54-4206-91b4-6d57a5abf3d4",
+        "created_at": "2023-09-30T18:29:07.012Z",
+        "updated_at": "2023-10-01T08:38:17.621Z"
+      },
+      {
+        "id": "a62cfbf6-2829-4705-81d9-6628e43f7909",
+        "created_at": "2023-10-01T10:48:30.127Z",
+        "updated_at": "2023-10-01T13:39:16.814Z"
+      },
+      {
+        "id": "721e4c6c-6a84-4b0d-a516-e2ecf97f9370",
+        "created_at": "2023-09-30T19:38:51.428Z",
+        "updated_at": "2023-10-01T06:04:40.672Z"
+      },
+      {
+        "id": "f8a8f708-a5dc-4c4d-85ba-448b38e8d601",
+        "created_at": "2023-09-30T21:57:29.934Z",
+        "updated_at": "2023-10-01T02:43:41.235Z"
+      }
+    ],
+    "service": [
+      {
+        "id": "b0c25d25-c7ec-4778-843c-53b1de641711",
+        "name": "Web Design",
+        "description": "Custom website design and development services",
+        "duration": 50053,
+        "price": 65925,
+        "created_at": "2023-09-30T23:02:18.295Z",
+        "updated_at": "2023-10-01T09:52:22.732Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fdb1cb0e-a5ed-44b7-afd7-75b052f7050b",
+        "name": "Mobile App Development",
+        "description": "Creating innovative mobile applications for iOS and Android",
+        "duration": 68303,
+        "price": 77846,
+        "created_at": "2023-10-01T09:28:12.407Z",
+        "updated_at": "2023-10-01T02:39:34.551Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8657f622-7416-46b1-8b49-b7f0881c168d",
+        "name": "Digital Marketing",
+        "description": "Promoting businesses through online advertising and SEO",
+        "duration": 79269,
+        "price": 34429,
+        "created_at": "2023-10-01T04:59:04.172Z",
+        "updated_at": "2023-10-01T01:26:52.125Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6db4609c-4d10-4818-8567-291452ad103b",
+        "name": "Cloud Computing",
+        "description": "Efficiently managing and scaling IT infrastructure",
+        "duration": 7198,
+        "price": 98869,
+        "created_at": "2023-10-01T12:13:57.100Z",
+        "updated_at": "2023-10-01T06:40:59.460Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "572bb3cc-50aa-4cd8-9b39-7af5e35e8c8c",
+        "name": "Data Analytics",
+        "description": "Extracting valuable insights from data for informed decision-making",
+        "duration": 54701,
+        "price": 96208,
+        "created_at": "2023-10-01T13:33:16.569Z",
+        "updated_at": "2023-10-01T12:13:03.597Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "fa402043-fe7f-4204-a238-1ce7bb7f0a36",
+        "name": "Central Park",
+        "address": "10 Park Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-10-01T02:32:24.536Z",
+        "updated_at": "2023-10-01T06:25:36.250Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d8afbfce-0969-45f5-9756-933211cda410",
+        "name": "Golden Gate Bridge",
+        "address": "20 Bridge Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-10-01T09:25:29.954Z",
+        "updated_at": "2023-10-01T04:05:02.119Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b1856c0c-9392-45b7-9007-f3d9c9d21a06",
+        "name": "Willis Tower",
+        "address": "30 Tower Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-10-01T14:45:21.067Z",
+        "updated_at": "2023-10-01T09:31:47.103Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1d89c18e-d5a8-4b8b-b8a4-642b2b881f6a",
+        "name": "Space Needle",
+        "address": "40 Needle Road",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-30T15:35:00.233Z",
+        "updated_at": "2023-09-30T15:41:07.741Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a365273b-947c-4b93-b14e-d8dfecf42c3a",
+        "name": "Grand Canyon",
+        "address": "50 Canyon Drive",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-30T20:12:07.319Z",
+        "updated_at": "2023-09-30T19:58:42.796Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "employee_skills": [
+      {
+        "id": "8cba1cae-5b28-469c-acbf-d27e532c9e19",
+        "created_at": "2023-09-30T17:54:08.861Z",
+        "updated_at": "2023-10-01T00:34:17.699Z"
+      },
+      {
+        "id": "8c5308ec-9d54-4f58-9c76-6e42ca9e788a",
+        "created_at": "2023-10-01T08:26:44.151Z",
+        "updated_at": "2023-10-01T05:19:10.605Z"
+      },
+      {
+        "id": "2bc0aef5-9fbf-446e-9e8d-1db3c3fb4421",
+        "created_at": "2023-10-01T11:23:55.626Z",
+        "updated_at": "2023-10-01T10:28:39.143Z"
+      },
+      {
+        "id": "0af1c3f5-c43c-4bc2-8630-e4bcf4aff795",
+        "created_at": "2023-09-30T17:38:08.079Z",
+        "updated_at": "2023-09-30T22:28:06.438Z"
+      },
+      {
+        "id": "dbd55f40-3db9-4d97-a2b9-05e487bff96b",
+        "created_at": "2023-10-01T07:37:44.324Z",
+        "updated_at": "2023-10-01T09:06:03.935Z"
+      }
+    ],
+    "employee_availability": [
+      {
+        "id": "2756fa7e-48ba-4f22-ab74-e95ca8345123",
+        "created_at": "2023-09-30T21:16:00.286Z",
+        "updated_at": "2023-10-01T12:35:27.403Z"
+      },
+      {
+        "id": "185976ce-5bf2-4fff-bb90-882ab8938c84",
+        "created_at": "2023-10-01T07:28:13.924Z",
+        "updated_at": "2023-09-30T16:13:13.510Z"
+      },
+      {
+        "id": "dabf46fd-d952-4767-8775-c232242dae0d",
+        "created_at": "2023-09-30T18:02:28.097Z",
+        "updated_at": "2023-09-30T15:33:20.910Z"
+      },
+      {
+        "id": "61b2a31e-ea0a-4fcb-871d-1d4b72d3bdd4",
+        "created_at": "2023-10-01T05:52:43.569Z",
+        "updated_at": "2023-10-01T00:32:58.787Z"
+      },
+      {
+        "id": "baabda08-5a39-47b0-883f-5414f9106b06",
+        "created_at": "2023-10-01T12:57:55.609Z",
+        "updated_at": "2023-09-30T23:07:34.270Z"
+      }
+    ],
+    "employee": [
+      {
+        "id": "54e1e5f1-ede4-48a3-9997-8f7eec648445",
+        "shift_start": "2023-09-30T15:19:25.256Z",
+        "shift_end": "2023-10-01T02:48:20.332Z",
+        "created_at": "2023-10-01T00:04:46.869Z",
+        "updated_at": "2023-10-01T07:35:03.446Z",
+        "location_id": "1d89c18e-d5a8-4b8b-b8a4-642b2b881f6a",
+        "service_id": "fdb1cb0e-a5ed-44b7-afd7-75b052f7050b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e48c997-1a1a-40e8-947b-4c59757ffac6",
+        "shift_start": "2023-10-01T06:25:07.181Z",
+        "shift_end": "2023-09-30T15:32:24.103Z",
+        "created_at": "2023-10-01T07:30:28.404Z",
+        "updated_at": "2023-10-01T00:58:42.650Z",
+        "location_id": "a365273b-947c-4b93-b14e-d8dfecf42c3a",
+        "service_id": "6db4609c-4d10-4818-8567-291452ad103b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45c050c9-39b1-4d55-9539-b5861599d0cb",
+        "shift_start": "2023-10-01T13:17:13.396Z",
+        "shift_end": "2023-09-30T19:55:41.689Z",
+        "created_at": "2023-09-30T22:51:19.899Z",
+        "updated_at": "2023-10-01T13:12:48.632Z",
+        "location_id": "1d89c18e-d5a8-4b8b-b8a4-642b2b881f6a",
+        "service_id": "8657f622-7416-46b1-8b49-b7f0881c168d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12e009cc-cecb-4aa3-8cf0-ea3d59676343",
+        "shift_start": "2023-09-30T16:56:04.514Z",
+        "shift_end": "2023-09-30T21:33:30.901Z",
+        "created_at": "2023-09-30T15:12:52.600Z",
+        "updated_at": "2023-09-30T19:24:57.211Z",
+        "location_id": "d8afbfce-0969-45f5-9756-933211cda410",
+        "service_id": "572bb3cc-50aa-4cd8-9b39-7af5e35e8c8c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e93f2593-0144-4eac-9f83-4738582d0288",
+        "shift_start": "2023-10-01T13:20:32.356Z",
+        "shift_end": "2023-09-30T16:39:08.345Z",
+        "created_at": "2023-10-01T02:23:16.360Z",
+        "updated_at": "2023-09-30T18:06:36.831Z",
+        "location_id": "fa402043-fe7f-4204-a238-1ce7bb7f0a36",
+        "service_id": "b0c25d25-c7ec-4778-843c-53b1de641711",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "d3d7127b-7fd6-4ce5-a526-55cf7f0f3e9b",
+        "appointment_time": "2023-10-01T04:19:18.326Z",
+        "created_at": "2023-09-30T23:55:51.130Z",
+        "updated_at": "2023-09-30T21:34:56.843Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "e93f2593-0144-4eac-9f83-4738582d0288",
+        "location_id": "fa402043-fe7f-4204-a238-1ce7bb7f0a36",
+        "service_id": "b0c25d25-c7ec-4778-843c-53b1de641711"
+      },
+      {
+        "id": "d1a7bf89-f1b8-4a6c-9eef-8ff2aa41cbeb",
+        "appointment_time": "2023-09-30T15:23:49.460Z",
+        "created_at": "2023-09-30T20:23:41.793Z",
+        "updated_at": "2023-09-30T18:02:39.476Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "54e1e5f1-ede4-48a3-9997-8f7eec648445",
+        "location_id": "d8afbfce-0969-45f5-9756-933211cda410",
+        "service_id": "fdb1cb0e-a5ed-44b7-afd7-75b052f7050b"
+      },
+      {
+        "id": "0030145e-a520-4c5c-bb38-df758f2fd948",
+        "appointment_time": "2023-10-01T09:13:12.136Z",
+        "created_at": "2023-10-01T05:01:24.812Z",
+        "updated_at": "2023-10-01T05:16:58.875Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "12e009cc-cecb-4aa3-8cf0-ea3d59676343",
+        "location_id": "d8afbfce-0969-45f5-9756-933211cda410",
+        "service_id": "8657f622-7416-46b1-8b49-b7f0881c168d"
+      },
+      {
+        "id": "ba3581ca-609f-451d-97b0-5fbdbe503a95",
+        "appointment_time": "2023-10-01T09:46:45.423Z",
+        "created_at": "2023-10-01T11:57:14.982Z",
+        "updated_at": "2023-10-01T01:17:53.652Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "12e009cc-cecb-4aa3-8cf0-ea3d59676343",
+        "location_id": "b1856c0c-9392-45b7-9007-f3d9c9d21a06",
+        "service_id": "fdb1cb0e-a5ed-44b7-afd7-75b052f7050b"
+      },
+      {
+        "id": "23c8fa8c-b054-4713-b6f1-ac064805dcb7",
+        "appointment_time": "2023-09-30T21:55:40.138Z",
+        "created_at": "2023-09-30T15:09:51.713Z",
+        "updated_at": "2023-09-30T21:33:19.907Z",
+        "customer_id": "user_entity_pk",
+        "employee_id": "12e009cc-cecb-4aa3-8cf0-ea3d59676343",
+        "location_id": "a365273b-947c-4b93-b14e-d8dfecf42c3a",
+        "service_id": "6db4609c-4d10-4818-8567-291452ad103b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8fa81dd7-d42b-48c5-89ae-aa3536fa410c",
+        "email": "Freddie_Bins26@roq.tech",
+        "firstName": "Watson",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90579901",
+        "tenantId": null
+      },
+      {
+        "reference": "1eaa4798-7142-4897-b4b1-b04dfa762328",
+        "email": "Dorian71@roq.tech",
+        "firstName": "Aric",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1150.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24e489cc-0b66-4107-9359-cf17d46de9ec",
+        "email": "Sebastian_Mertz-Friesen58@roq.tech",
+        "firstName": "Dina",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/532.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83825478-b8fd-4785-8466-901d23b7a57a",
+        "email": "Augusta.Cummings@roq.tech",
+        "firstName": "Tomas",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/440.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f9e37c58-e708-4dac-8475-43af2cfd3836",
+        "email": "Clovis_Koss@roq.tech",
+        "firstName": "Jeanette",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1106.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,118 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model appointment {
+  id               String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  customer_id      String    @db.Uuid
+  employee_id      String    @db.Uuid
+  service_id       String    @db.Uuid
+  location_id      String    @db.Uuid
+  appointment_time DateTime? @db.Timestamp(6)
+  created_at       DateTime  @default(now()) @db.Timestamp(6)
+  updated_at       DateTime  @default(now()) @db.Timestamp(6)
+  user             user      @relation(fields: [customer_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  employee         employee  @relation(fields: [employee_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  location         location  @relation(fields: [location_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  service          service   @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model employee {
+  id          String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id     String        @db.Uuid
+  location_id String        @db.Uuid
+  service_id  String        @db.Uuid
+  shift_start DateTime?     @db.Timestamp(6)
+  shift_end   DateTime?     @db.Timestamp(6)
+  created_at  DateTime      @default(now()) @db.Timestamp(6)
+  updated_at  DateTime      @default(now()) @db.Timestamp(6)
+  appointment appointment[]
+  location    location      @relation(fields: [location_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  service     service       @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user        user          @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model employee_availability {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+}
+
+model employee_skills {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+}
+
+model location {
+  id              String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name            String        @db.VarChar(255)
+  address         String?       @db.VarChar(255)
+  city            String?       @db.VarChar(255)
+  state           String?       @db.VarChar(255)
+  zip_code        String?       @db.VarChar(255)
+  organization_id String        @db.Uuid
+  created_at      DateTime      @default(now()) @db.Timestamp(6)
+  updated_at      DateTime      @default(now()) @db.Timestamp(6)
+  appointment     appointment[]
+  employee        employee[]
+  organization    organization  @relation(fields: [organization_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model organization {
+  id          String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?    @db.VarChar(255)
+  address     String?    @db.VarChar(255)
+  city        String?    @db.VarChar(255)
+  state       String?    @db.VarChar(255)
+  zip_code    String?    @db.VarChar(255)
+  name        String     @db.VarChar(255)
+  created_at  DateTime   @default(now()) @db.Timestamp(6)
+  updated_at  DateTime   @default(now()) @db.Timestamp(6)
+  user_id     String     @db.Uuid
+  tenant_id   String     @db.VarChar(255)
+  location    location[]
+  user        user       @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  service     service[]
+}
+
+model service {
+  id              String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name            String        @db.VarChar(255)
+  description     String?       @db.VarChar(255)
+  duration        Int?
+  price           Int?
+  organization_id String        @db.Uuid
+  created_at      DateTime      @default(now()) @db.Timestamp(6)
+  updated_at      DateTime      @default(now()) @db.Timestamp(6)
+  appointment     appointment[]
+  employee        employee[]
+  organization    organization  @relation(fields: [organization_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model service_duration {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+}
+
+model user {
+  id           String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email        String         @unique @db.VarChar(255)
+  firstName    String?        @db.VarChar(255)
+  lastName     String?        @db.VarChar(255)
+  roq_user_id  String         @db.VarChar(255)
+  tenant_id    String         @db.VarChar(255)
+  created_at   DateTime       @default(now()) @db.Timestamp(6)
+  updated_at   DateTime       @default(now()) @db.Timestamp(6)
+  appointment  appointment[]
+  employee     employee[]
+  organization organization[]
+}
